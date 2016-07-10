@@ -58,7 +58,8 @@ fi
 gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 %files -f %{name}.lang
-%doc AUTHORS NEWS PKG-INFO README
+#%doc AUTHORS NEWS PKG-INFO README
+%doc AUTHORS NEWS README
 %license COPYING
 %{_bindir}/%{name}
 %{_datadir}/applications/menulibre.desktop
