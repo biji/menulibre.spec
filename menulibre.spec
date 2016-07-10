@@ -9,7 +9,7 @@ Source0:        https://launchpad.net/menulibre/2.1/%{version}/+download/menulib
 
 # Exit early when adding a new launcher and no directory is selected
 # https://bugs.launchpad.net/menulibre/+bug/1556664
-Patch0:         %{name}-add-launcher-none-check.patch
+#Patch0:         %{name}-add-launcher-none-check.patch
 
 BuildArch:      noarch
 
@@ -28,7 +28,7 @@ edit menu entries.
 
 %prep
 %setup -q
-%patch0 -p0
+#%patch0 -p0
 
 %build
 
