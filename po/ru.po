@@ -1,0 +1,1038 @@
+# Russian translation for menulibre
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the menulibre package.
+# FIRST AUTHOR Rodion R. <rodikr2005@yandex.ru>, 2014.
+# mopase <i.mopase@gmail.com>, 2015
+# ned <n-st@mail.ru>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: menulibre\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-05-18 22:03-0400\n"
+"PO-Revision-Date: 2014-04-23 19:57+0000\n"
+"Last-Translator: Rodion R. <rodikr2005@yandex.ru>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-05-20 05:33+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
+"Language: ru\n"
+
+#: ../menulibre.desktop.in.h:1
+msgid "Menu Editor"
+msgstr "Редактор меню"
+
+#: ../menulibre.desktop.in.h:2
+msgid "Add or remove applications from the menu"
+msgstr "Добавление и удаление пунктов меню"
+
+#: ../data/ui/MenulibreWindow.ui.h:1
+msgid "Add _Launcher"
+msgstr "Добавить кнопку _запуска"
+
+#: ../data/ui/MenulibreWindow.ui.h:2
+msgid "Add _Directory"
+msgstr "Добавить _папку"
+
+#: ../data/ui/MenulibreWindow.ui.h:3
+msgid "Add _Separator"
+msgstr "Добавить _разделитель"
+
+#: ../data/ui/MenulibreWindow.ui.h:4
+msgid "Generic name of the application, for example \"Web Browser\"."
+msgstr ""
+"Ключ: \"GenericName\" (Обобщённое имя). Тип: строка.\r\n"
+"\r\n"
+"Обобщённое название программы, например \"Веб-браузер\""
+
+#: ../data/ui/MenulibreWindow.ui.h:5
+msgid "Generic Name"
+msgstr "Обобщённое имя"
+
+#: ../data/ui/MenulibreWindow.ui.h:6
+msgid ""
+"A list of environments that should not display this entry. You can only use "
+"this key if \"OnlyShowIn\" is not set.\n"
+"Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+"XFCE, Old"
+msgstr ""
+"Ключ: \"NotShowIn\" (Не показывать в). Тип: строка.\n"
+"Значения: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old.\n"
+"\n"
+"Список окружений, в которых пункт меню не будет отображаться. Использование\n"
+"ключа возможно только в случае, если не установлен ключ OnlyShowIn"
+
+#: ../data/ui/MenulibreWindow.ui.h:8
+msgid "Not Shown In"
+msgstr "Не показывать в"
+
+#: ../data/ui/MenulibreWindow.ui.h:9
+msgid ""
+"A list of environments that should display this entry. Other environments "
+"will not display this entry. You can only use this key if \"NotShowIn\" is "
+"not set.\n"
+"Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+"XFCE, Old"
+msgstr ""
+"Ключ: \"OnlyShowIn\" (Показать только в). Тип: строка.\n"
+"Значения: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old.\n"
+"\n"
+"Список окружений, в которых пункт меню будет отображаться.\n"
+"Другие окружения не будут отображать этот пункт. Использование\n"
+"ключа возможно только в случае, если не установлен ключ NotShowIn"
+
+#: ../data/ui/MenulibreWindow.ui.h:11
+msgid "Only Shown In"
+msgstr "Показывать в"
+
+#: ../data/ui/MenulibreWindow.ui.h:12
+msgid ""
+"Path to an executable file to determine if the program is installed. If the "
+"file is not present or is not executable, this entry may not be shown in a "
+"menu."
+msgstr ""
+"Ключ: \"TryExec\" (Путь проверки). Тип: строка.\r\n"
+"\r\n"
+"Путь к исполняемому файлу, используемый для определения,\r\n"
+"установлена ли в настоящий момент программа.\r\n"
+"\r\n"
+"Если файл не обнаружен или не является исполняемым,\r\n"
+"пункт может не отображаться в меню"
+
+#: ../data/ui/MenulibreWindow.ui.h:13
+msgid "Try Exec"
+msgstr "Путь проверки"
+
+#: ../data/ui/MenulibreWindow.ui.h:14
+msgid "The MIME type(s) supported by this application."
+msgstr ""
+"Ключ: \"MimeType\" (Тип MIME). Тип: строка.\r\n"
+"\r\n"
+"Типы MIME, поддерживаемые этой программой"
+
+#: ../data/ui/MenulibreWindow.ui.h:15
+msgid "Mimetypes"
+msgstr "Типы MIME"
+
+#: ../data/ui/MenulibreWindow.ui.h:16
+msgid ""
+"A list of keywords to describe this entry. You can use these to help "
+"searching entries. These are not meant for display, and should not be "
+"redundant with the values of Name or GenericName."
+msgstr ""
+"Ключ: \"Keywords\" (Ключевые слова). Тип: строка.\r\n"
+"\r\n"
+"Список значений для описания этого пункта. Используется\r\n"
+"для облегчения поиска пунктов в меню.\r\n"
+"\r\n"
+"Значения не предназначены для отображения и не должны\r\n"
+"быть избыточными для ключей Name и GenericName"
+
+#: ../data/ui/MenulibreWindow.ui.h:17
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: ../data/ui/MenulibreWindow.ui.h:18
+msgid ""
+"If specified, the application will be requested to use the string as a WM "
+"class or a WM name hint at least in one window."
+msgstr ""
+"Ключ: \"StartupWMClass\" (Начальный класс WM). Тип: строка.\r\n"
+"\r\n"
+"Если указан, программа будет пытаться использовать строку\r\n"
+"как класс WM или описание класса WM минимум в одном окне"
+
+#: ../data/ui/MenulibreWindow.ui.h:19
+msgid "Startup WM Class"
+msgstr "Класс WM"
+
+#: ../data/ui/MenulibreWindow.ui.h:20
+msgid ""
+"If set to \"True\", the result for the user is equivalent to the .desktop "
+"file not existing at all."
+msgstr ""
+"Ключ: \"Hidden\" (Скрытый). Тип: логический. Значения: true, false.\r\n"
+"\r\n"
+"\"Скрытый\" следует понимать как \"Удалённый\". Если равен true, для\r\n"
+"пользователя равнозначно тому, что файл \".desktop\" вообще не существует"
+
+#: ../data/ui/MenulibreWindow.ui.h:21
+msgid "Hidden"
+msgstr "Удалённый"
+
+#: ../data/ui/MenulibreWindow.ui.h:22
+msgid ""
+"Set this key to \"True\" if D-Bus activation is supported for this "
+"application and you want to use it.\n"
+"See http://standards.freedesktop.org/desktop-entry-spec/latest/ar01s07.html "
+"for more information."
+msgstr ""
+"Ключ: \"DBusActivatable\" (DBus-активируемый). Тип: логический. Значения: "
+"true, false.\n"
+"\n"
+"Установите равным true, если активация через D-Bus поддерживается и "
+"необходимо её использовать"
+
+#: ../data/ui/MenulibreWindow.ui.h:24
+msgid "DBUS Activatable"
+msgstr "DBus-активация"
+
+#: ../data/ui/MenulibreWindow.ui.h:25
+msgid "Browse Icons…"
+msgstr "Выбрать значки…"
+
+#: ../data/ui/MenulibreWindow.ui.h:26
+msgid "Browse Files..."
+msgstr "Выбрать файлы..."
+
+#: ../data/ui/MenulibreWindow.ui.h:27 ../menulibre/Dialogs.py:38
+#: ../menulibre/MenulibreApplication.py:237
+#: ../menulibre/MenulibreApplication.py:276
+msgid "MenuLibre"
+msgstr "MenuLibre"
+
+#: ../data/ui/MenulibreWindow.ui.h:28
+msgid "Save Launcher"
+msgstr "Сохранить кнопку запуска"
+
+#: ../data/ui/MenulibreWindow.ui.h:29 ../menulibre/MenulibreApplication.py:342
+msgid "Undo"
+msgstr "Отменить"
+
+#: ../data/ui/MenulibreWindow.ui.h:30 ../menulibre/MenulibreApplication.py:349
+msgid "Redo"
+msgstr "Вернуть"
+
+#: ../data/ui/MenulibreWindow.ui.h:31 ../menulibre/MenulibreApplication.py:356
+msgid "Revert"
+msgstr "Восстановить"
+
+#: ../data/ui/MenulibreWindow.ui.h:32 ../menulibre/MenulibreApplication.py:363
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../data/ui/MenulibreWindow.ui.h:33
+msgid "Move Up"
+msgstr "Выше"
+
+#: ../data/ui/MenulibreWindow.ui.h:34
+msgid "Move Down"
+msgstr "Ниже"
+
+#: ../data/ui/MenulibreWindow.ui.h:35
+msgid "<small><i>Filename</i></small>"
+msgstr "<small><i>Имя файла</i></small>"
+
+#: ../data/ui/MenulibreWindow.ui.h:36
+msgid "<big><b>Application Name</b></big>"
+msgstr "<big><b>Имя программы</b></big>"
+
+#: ../data/ui/MenulibreWindow.ui.h:37
+msgid "Application Name"
+msgstr "Имя программы"
+
+#: ../data/ui/MenulibreWindow.ui.h:38
+msgid "Application Comment"
+msgstr "Комментарий"
+
+#: ../data/ui/MenulibreWindow.ui.h:39 ../menulibre/MenulibreApplication.py:683
+msgid "Description"
+msgstr "Описание"
+
+#: ../data/ui/MenulibreWindow.ui.h:40
+msgid ""
+"Program to execute with arguments. This key is required if DBusActivatable "
+"is not set to \"True\" or if you need compatibility with implementations "
+"that do not understand D-Bus activation.\n"
+"See http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html#exec-variables for a list of supported arguments."
+msgstr ""
+"Ключ: \"Exec\" (Выполнить). Тип: строка.\n"
+"\n"
+"Путь к программе для запуска, с возможностью указания аргументов. Ключ Exec "
+"необходим, если ключ\n"
+"DBusActivatable не равен true, или для совместимости с программами, не "
+"распознающими ключ DBusActivatable.\n"
+"\n"
+"Список поддерживаемых аргументов доступен на сайте группы Freedesktop.org\n"
+"(http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html#exec-variables)"
+
+#: ../data/ui/MenulibreWindow.ui.h:42
+msgid "Command"
+msgstr "Команда"
+
+#: ../data/ui/MenulibreWindow.ui.h:43
+msgid "The working directory."
+msgstr "Рабочая папка"
+
+#: ../data/ui/MenulibreWindow.ui.h:44
+msgid "Working Directory"
+msgstr "Рабочая папка"
+
+#: ../data/ui/MenulibreWindow.ui.h:45
+msgid "<b>Application Details</b>"
+msgstr "<b>Программа</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:46
+msgid "If set to \"True\", the program will be ran in a terminal window."
+msgstr ""
+"Ключ: \"Terminal\" (Терминал). Тип: логический.\r\n"
+"\r\n"
+"Запуск программы в окне терминала"
+
+#: ../data/ui/MenulibreWindow.ui.h:47
+msgid "Run in terminal"
+msgstr "Запуск в терминале"
+
+#: ../data/ui/MenulibreWindow.ui.h:48
+msgid ""
+"If set to \"True\", a startup notification is sent. Usually means that a "
+"busy cursor is shown while the application launches."
+msgstr ""
+"Ключ: \"StartupNotify\" (Уведомить о запуске). Тип: логический. Значения: "
+"true, false.\r\n"
+"\r\n"
+"Если равен true, программа будет отправлять уведомление о запуске. Обычно "
+"означает,\r\n"
+"что во время запуска приложения отображается курсор со значком занятости"
+
+#: ../data/ui/MenulibreWindow.ui.h:49
+msgid "Use startup notification"
+msgstr "Уведомить о запуске"
+
+#: ../data/ui/MenulibreWindow.ui.h:50
+msgid ""
+"If set to \"True\", this entry will not be shown in menus, but will be "
+"available for MIME type associations etc."
+msgstr ""
+"Ключ: \"NoDisplay\" (Не отображать). Тип: логический. Значения: true, "
+"false.\r\n"
+"\r\n"
+"Если равен true, этот пункт не будет отображаться в меню, но будет "
+"доступен\r\n"
+"для связи с различными типами MIME и т. п."
+
+#: ../data/ui/MenulibreWindow.ui.h:51
+msgid "Hide from menus"
+msgstr "Не отображать в меню"
+
+#: ../data/ui/MenulibreWindow.ui.h:52
+msgid "<b>Options</b>"
+msgstr "<b>Параметры</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:53
+msgid "Add"
+msgstr "Добавить"
+
+#: ../data/ui/MenulibreWindow.ui.h:54
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../data/ui/MenulibreWindow.ui.h:55
+msgid "Clear"
+msgstr "Очистить"
+
+#: ../data/ui/MenulibreWindow.ui.h:56
+msgid "Show"
+msgstr "Показывать"
+
+#: ../data/ui/MenulibreWindow.ui.h:57
+msgid "Name"
+msgstr "Имя"
+
+#: ../data/ui/MenulibreWindow.ui.h:58
+msgid "Select an icon…"
+msgstr "Выберите значок..."
+
+#: ../data/ui/MenulibreWindow.ui.h:59 ../menulibre/Dialogs.py:62
+#: ../menulibre/Dialogs.py:85 ../menulibre/Dialogs.py:101
+#: ../menulibre/Dialogs.py:124 ../menulibre/Dialogs.py:132
+#: ../menulibre/MenulibreIconSelection.py:79
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../data/ui/MenulibreWindow.ui.h:60
+msgid "Apply"
+msgstr "Применить"
+
+#: ../data/ui/MenulibreWindow.ui.h:61
+msgid "<b>Select an icon</b>"
+msgstr "<b>Выберите значок</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:62
+msgid "Search"
+msgstr "Поиск"
+
+#: ../data/ui/MenulibreWindow.ui.h:63
+msgid "column"
+msgstr "столбец"
+
+#: ../data/ui/MenulibreWindow.ui.h:64
+msgid "Search terms…"
+msgstr "Поиск пункта..."
+
+#: ../menulibre/__init__.py:33
+msgid "Show debug messages"
+msgstr "Отладочные сообщения"
+
+#. Populate the AboutDialog with all the relevant details.
+#: ../menulibre/Dialogs.py:37
+msgid "About MenuLibre"
+msgstr "О MenuLibre"
+
+#: ../menulibre/Dialogs.py:40
+msgid "Copyright © 2012-2015 Sean Davis"
+msgstr "Авторские права © 2012—2015 Sean Davis"
+
+#: ../menulibre/Dialogs.py:55
+msgid "Do you want to read the MenuLibre manual online?"
+msgstr "Открыть онлайн-справку MenuLibre?"
+
+#: ../menulibre/Dialogs.py:56
+msgid ""
+"You will be redirected to the documentation website where the help pages are "
+"maintained."
+msgstr "Будет открыт сайт с документацией"
+
+#: ../menulibre/Dialogs.py:63
+msgid "Read Online"
+msgstr "Читать онлайн"
+
+#: ../menulibre/Dialogs.py:64
+msgid "Online Documentation"
+msgstr "Онлайн-справка"
+
+#: ../menulibre/Dialogs.py:75
+msgid "Do you want to save the changes before closing?"
+msgstr "Сохранить изменения?"
+
+#: ../menulibre/Dialogs.py:76
+msgid "If you don't save the launcher, all the changes will be lost.'"
+msgstr "Если не сохранить кнопку запуска, изменения будут утрачены"
+
+#: ../menulibre/Dialogs.py:83 ../menulibre/Dialogs.py:99
+msgid "Save Changes"
+msgstr "Сохранить"
+
+#: ../menulibre/Dialogs.py:84 ../menulibre/Dialogs.py:100
+msgid "Don't Save"
+msgstr "Не сохранять"
+
+#: ../menulibre/Dialogs.py:86 ../menulibre/Dialogs.py:102
+#: ../menulibre/MenulibreApplication.py:335
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../menulibre/Dialogs.py:90
+msgid "Do you want to save the changes before leaving this launcher?"
+msgstr "Сохранить изменения кнопки запуска?"
+
+#: ../menulibre/Dialogs.py:92
+msgid "If you don't save the launcher, all the changes will be lost."
+msgstr "Если не сохранить кнопку запуска, изменения будут утрачены"
+
+#: ../menulibre/Dialogs.py:106
+msgid "This cannot be undone."
+msgstr "Действие не может быть отменено"
+
+#: ../menulibre/Dialogs.py:115
+msgid "Are you sure you want to restore this launcher?"
+msgstr "Восстановить кнопку запуска?"
+
+#: ../menulibre/Dialogs.py:116
+msgid ""
+"All changes since the last saved state will be lost and cannot be restored "
+"automatically."
+msgstr ""
+"Все изменения после последнего сохранения будут утрачены и не смогут быть "
+"восстановлены автоматически"
+
+#: ../menulibre/Dialogs.py:125 ../menulibre/Dialogs.py:126
+msgid "Restore Launcher"
+msgstr "Восстановить"
+
+#: ../menulibre/Dialogs.py:133 ../menulibre/MenulibreIconSelection.py:80
+msgid "OK"
+msgstr "OK"
+
+#: ../menulibre/MenuEditor.py:87 ../menulibre/MenulibreApplication.py:1029
+#: ../menulibre/MenulibreApplication.py:1463
+msgid "Separator"
+msgstr "Разделитель"
+
+#. Standard Items
+#: ../menulibre/MenulibreApplication.py:40
+msgid "Multimedia"
+msgstr "Мультимедиа"
+
+#: ../menulibre/MenulibreApplication.py:41
+msgid "Development"
+msgstr "Разработка"
+
+#: ../menulibre/MenulibreApplication.py:42
+msgid "Education"
+msgstr "Образование"
+
+#: ../menulibre/MenulibreApplication.py:43
+msgid "Games"
+msgstr "Игры"
+
+#: ../menulibre/MenulibreApplication.py:44
+msgid "Graphics"
+msgstr "Графика"
+
+#: ../menulibre/MenulibreApplication.py:45
+msgid "Internet"
+msgstr "Интернет"
+
+#: ../menulibre/MenulibreApplication.py:46
+msgid "Office"
+msgstr "Офис"
+
+#: ../menulibre/MenulibreApplication.py:47
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../menulibre/MenulibreApplication.py:48
+msgid "System"
+msgstr "Системные"
+
+#: ../menulibre/MenulibreApplication.py:49
+msgid "Accessories"
+msgstr "Стандартные"
+
+#: ../menulibre/MenulibreApplication.py:50
+msgid "WINE"
+msgstr "WINE"
+
+#. Desktop Environment
+#: ../menulibre/MenulibreApplication.py:52
+msgid "Desktop configuration"
+msgstr "Настройки рабочего стола"
+
+#: ../menulibre/MenulibreApplication.py:53
+msgid "User configuration"
+msgstr "Настройки пользователя"
+
+#: ../menulibre/MenulibreApplication.py:54
+msgid "Hardware configuration"
+msgstr "Настройки оборудования"
+
+#. GNOME Specific
+#: ../menulibre/MenulibreApplication.py:56
+msgid "GNOME application"
+msgstr "Программа GNOME"
+
+#: ../menulibre/MenulibreApplication.py:57
+msgid "GTK+ application"
+msgstr "Программа GTK+"
+
+#: ../menulibre/MenulibreApplication.py:58
+msgid "GNOME user configuration"
+msgstr "Настройки пользователя GNOME"
+
+#: ../menulibre/MenulibreApplication.py:59
+msgid "GNOME hardware configuration"
+msgstr "Настройки оборудования GNOME"
+
+#: ../menulibre/MenulibreApplication.py:60
+#: ../menulibre/MenulibreApplication.py:61
+msgid "GNOME system configuration"
+msgstr "Настройки системы GNOME"
+
+#. Xfce Specific
+#: ../menulibre/MenulibreApplication.py:63
+#: ../menulibre/MenulibreApplication.py:64
+msgid "Xfce menu item"
+msgstr "Пункт меню Xfce"
+
+#: ../menulibre/MenulibreApplication.py:65
+msgid "Xfce toplevel menu item"
+msgstr "Пункт меню Xfce верхнего уровня"
+
+#: ../menulibre/MenulibreApplication.py:66
+msgid "Xfce user configuration"
+msgstr "Настройки пользователя Xfce"
+
+#: ../menulibre/MenulibreApplication.py:67
+msgid "Xfce hardware configuration"
+msgstr "Настройки оборудования Xfce"
+
+#: ../menulibre/MenulibreApplication.py:68
+#: ../menulibre/MenulibreApplication.py:69
+msgid "Xfce system configuration"
+msgstr "Настройки системы Xfce"
+
+#: ../menulibre/MenulibreApplication.py:117
+#: ../menulibre/MenulibreApplication.py:162
+msgid "Other"
+msgstr "Разное"
+
+#: ../menulibre/MenulibreApplication.py:214
+msgid "MenuLibre cannot be run as root."
+msgstr "Не удалось запустить MenuLibre с правами root"
+
+#: ../menulibre/MenulibreApplication.py:215
+msgid ""
+"Please see the <a "
+"href='https://wiki.smdavis.us/doku.php?id=menulibre_faq'>online "
+"documentation</a> for more information."
+msgstr ""
+"Подробности в <a "
+"href='https://wiki.smdavis.us/doku.php?id=menulibre_faq'>онлайн-справке</a>"
+
+#: ../menulibre/MenulibreApplication.py:313
+msgid "Add _Launcher..."
+msgstr "Добавить кнопку _запуска..."
+
+#: ../menulibre/MenulibreApplication.py:314
+msgid "Add Launcher..."
+msgstr "Добавить кнопку запуска..."
+
+#: ../menulibre/MenulibreApplication.py:320
+msgid "Add _Directory..."
+msgstr "Добавить _папку..."
+
+#: ../menulibre/MenulibreApplication.py:321
+msgid "Add Directory..."
+msgstr "Добавить папку..."
+
+#: ../menulibre/MenulibreApplication.py:327
+msgid "_Add Separator..."
+msgstr "Добавить _разделитель..."
+
+#: ../menulibre/MenulibreApplication.py:328
+msgid "Add Separator..."
+msgstr "Добавить разделитель..."
+
+#: ../menulibre/MenulibreApplication.py:334
+msgid "_Save"
+msgstr "_Сохранить"
+
+#: ../menulibre/MenulibreApplication.py:341
+msgid "_Undo"
+msgstr "_Отменить"
+
+#: ../menulibre/MenulibreApplication.py:348
+msgid "_Redo"
+msgstr "Ве_рнуть"
+
+#: ../menulibre/MenulibreApplication.py:355
+msgid "_Revert"
+msgstr "_Восстановить"
+
+#: ../menulibre/MenulibreApplication.py:362
+msgid "_Delete"
+msgstr "_Удалить"
+
+#: ../menulibre/MenulibreApplication.py:369
+msgid "_Quit"
+msgstr "_Выход"
+
+#: ../menulibre/MenulibreApplication.py:370
+#: ../menulibre/MenulibreApplication.py:1736
+msgid "Quit"
+msgstr "Выход"
+
+#: ../menulibre/MenulibreApplication.py:376
+msgid "_Contents"
+msgstr "_Содержание"
+
+#: ../menulibre/MenulibreApplication.py:377
+#: ../menulibre/MenulibreApplication.py:1734
+msgid "Help"
+msgstr "Справка"
+
+#: ../menulibre/MenulibreApplication.py:383
+msgid "_About"
+msgstr "_О программе"
+
+#: ../menulibre/MenulibreApplication.py:384
+#: ../menulibre/MenulibreApplication.py:1735
+msgid "About"
+msgstr "О программе"
+
+#: ../menulibre/MenulibreApplication.py:506
+msgid "Categories"
+msgstr "Категории"
+
+#: ../menulibre/MenulibreApplication.py:508
+msgid "Actions"
+msgstr "Действия"
+
+#: ../menulibre/MenulibreApplication.py:510
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: ../menulibre/MenulibreApplication.py:657
+msgid "ThisEntry"
+msgstr "Эта запись"
+
+#: ../menulibre/MenulibreApplication.py:675
+msgid "Select a category"
+msgstr "Выберите категорию"
+
+#: ../menulibre/MenulibreApplication.py:678
+msgid "Category Name"
+msgstr "Имя категории"
+
+#: ../menulibre/MenulibreApplication.py:762
+msgid "This Entry"
+msgstr "Эта запись"
+
+#: ../menulibre/MenulibreApplication.py:817
+msgid "New Shortcut"
+msgstr "Новый ярлык"
+
+#: ../menulibre/MenulibreApplication.py:963
+msgid "Select a working directory..."
+msgstr "Выберите рабочую папку..."
+
+#: ../menulibre/MenulibreApplication.py:966
+msgid "Select an executable..."
+msgstr "Выберите исполняемый файл..."
+
+#: ../menulibre/MenulibreApplication.py:988
+msgid "Cannot add subdirectories to preinstalled system paths."
+msgstr "Нельзя добавить подпапку к предустановленным системным путям"
+
+#. Display a dialog saying this item is missing
+#: ../menulibre/MenulibreApplication.py:1078
+msgid "No Longer Installed"
+msgstr "Было удалено"
+
+#: ../menulibre/MenulibreApplication.py:1079
+msgid ""
+"This launcher has been removed from the system.\n"
+"Selecting the next available item."
+msgstr ""
+"Кнопка запуска была удалена из системы.\n"
+"Выберите другой пункт меню"
+
+#: ../menulibre/MenulibreApplication.py:1179
+msgid "You do not have permission to delete this file."
+msgstr "Для удаления пункта необходимы права root"
+
+#: ../menulibre/MenulibreApplication.py:1411
+msgid "New Launcher"
+msgstr "Новая кнопка запуска"
+
+#: ../menulibre/MenulibreApplication.py:1446
+msgid "New Directory"
+msgstr "Новая папка"
+
+#: ../menulibre/MenulibreApplication.py:1683
+msgid "Are you sure you want to delete this separator?"
+msgstr "Удалить разделитель?"
+
+#: ../menulibre/MenulibreApplication.py:1686
+#, python-format
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Удалить \"%s\"?"
+
+#: ../menulibre/MenulibreIconSelection.py:76
+msgid "Select an image"
+msgstr "Выберите изображение"
+
+#: ../menulibre/MenulibreIconSelection.py:84
+msgid "Images"
+msgstr "Изображения"
+
+#. Create a new column.
+#: ../menulibre/MenulibreTreeview.py:60
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: ../menulibre/MenulibreXdg.py:53
+msgid "New Menu Item"
+msgstr "Новый пункт меню"
+
+#: ../menulibre/MenulibreXdg.py:55
+msgid "A small descriptive blurb about this application."
+msgstr "Краткое описание программы"
+
+#~ msgid "_Edit"
+#~ msgstr "_Правка"
+
+#~ msgid "_Help"
+#~ msgstr "_Справка"
+
+#~ msgid "_File"
+#~ msgstr "_Файл"
+
+#~ msgid "Image File"
+#~ msgstr "Файл изображения"
+
+#~ msgid "Icon Selection"
+#~ msgstr "Выбор значка"
+
+#~ msgid "<b>Select an image</b>"
+#~ msgstr "<b>Выберите изображение</b>"
+
+#~ msgid "32px"
+#~ msgstr "32px"
+
+#~ msgid "16px"
+#~ msgstr "16px"
+
+#~ msgid "128px"
+#~ msgstr "128px"
+
+#~ msgid "64px"
+#~ msgstr "64px"
+
+#~ msgid "Browse…"
+#~ msgstr "Обзор…"
+
+#~ msgid "Icon Name"
+#~ msgstr "Имя значка"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Предпросмотр</b>"
+
+#~ msgid ""
+#~ "\"Exec\": Program to execute, possibly with arguments. The Exec key is "
+#~ "required\n"
+#~ "if DBusActivatable is not set to true. Even if DBusActivatable is true, "
+#~ "Exec\n"
+#~ "should be specified for compatibility with implementations that do not\n"
+#~ "understand DBusActivatable. \n"
+#~ "\n"
+#~ "Please see\n"
+#~ "http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+#~ "latest.html#exec-variables\n"
+#~ "for a list of supported arguments."
+#~ msgstr ""
+#~ "Ключ: \"Exec\" (Выполнить). Тип: строка.\n"
+#~ "\n"
+#~ "Путь к программе для запуска, с возможностью указания аргументов. Ключ Exec "
+#~ "необходим,\n"
+#~ "если ключ DBusActivatable не равен true. Даже если ключ DBusActivatable "
+#~ "равен true, Exec\n"
+#~ "указывается для совместимости с программами, не распознающими ключ "
+#~ "DBusActivatable.\n"
+#~ "\n"
+#~ "Список поддерживаемых аргументов доступен на сайте группы Freedesktop.org\n"
+#~ "(http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+#~ "latest.html#exec-variables)"
+
+#~ msgid "\"Path\": The working directory to run the program in."
+#~ msgstr ""
+#~ "Ключ: \"Path\" (Путь). Тип: строка.\n"
+#~ "\n"
+#~ "Рабочая папка для запуска в ней программы.\n"
+#~ "\n"
+#~ "Например, запуск терминала в определённой папке"
+
+#~ msgid "\"Terminal\": Whether the program runs in a terminal window."
+#~ msgstr ""
+#~ "Ключ: \"Terminal\" (Терминал). Тип: логический.\n"
+#~ "\n"
+#~ "Запуск программы в окне терминала"
+
+#~ msgid ""
+#~ "\"StartupNotify\": If true, it is KNOWN that the application will send a "
+#~ "\"remove\"\n"
+#~ "message when started with the DESKTOP_STARTUP_ID environment variable set. "
+#~ "If\n"
+#~ "false, it is KNOWN that the application does not work with startup "
+#~ "notification\n"
+#~ "at all (does not shown any window, breaks even when using StartupWMClass, "
+#~ "etc.).\n"
+#~ "If absent, a reasonable handling is up to implementations (assuming false,\n"
+#~ "using StartupWMClass, etc.)."
+#~ msgstr ""
+#~ "Ключ: \"StartupNotify\" (Уведомить о запуске). Тип: логический. Значения: "
+#~ "true, false.\n"
+#~ "\n"
+#~ "При значении true известно, что программа будет отправлять сообщение "
+#~ "\"remove\",\n"
+#~ "если установлена переменная среды DESKTOP_STARTUP_ID.\n"
+#~ "\n"
+#~ "При значении false известно, что программа вообще не работатет с "
+#~ "уведомлениями\n"
+#~ "о запуске (не отображаются никакие окна, завершение даже при использовании\n"
+#~ "StartupWMClass и т. п.).\n"
+#~ "\n"
+#~ "Если значение отсутствует, решение принимается приложениями (считается "
+#~ "false,\n"
+#~ "используется StartupWMClass и т. п.)"
+
+#~ msgid ""
+#~ "\"NoDisplay\": NoDisplay means \"this application exists, but don't display "
+#~ "it in\n"
+#~ "the menus\". This can be useful to e.g. associate this application with "
+#~ "MIME\n"
+#~ "types, so that it gets launched from a file manager (or other apps), "
+#~ "without\n"
+#~ "having a menu entry for it (there are tons of good reasons for this,\n"
+#~ "including e.g. the netscape -remote, or kfmclient openURL kind of stuff)."
+#~ msgstr ""
+#~ "Ключ: \"NoDisplay\" (Не отображать). Тип: логический. Значения: true, "
+#~ "false.\n"
+#~ " \n"
+#~ "\"Не отображать\" означает \"эта программа установлена, но не отображается в "
+#~ "меню\".\n"
+#~ "Это может быть удобно, например, для связи программы с определёнными типами "
+#~ "MIME,\n"
+#~ "чтобы она запускалась из файлового менеджера или других программ, не имея "
+#~ "при этом\n"
+#~ "своего пункта.\n"
+#~ "\n"
+#~ "Например, архиватор, программа с ключами запуска: netscape -remote, "
+#~ "kfmclient openURL"
+
+#~ msgid "Action Name"
+#~ msgstr "Имя действия"
+
+#~ msgid ""
+#~ "\"GenericName\": Generic name of the application, for example \"Web "
+#~ "Browser\"."
+#~ msgstr ""
+#~ "Ключ: \"GenericName\" (Обобщённое имя). Тип: строка.\n"
+#~ "\n"
+#~ "Обобщённое название программы, например \"Веб-обозреватель\""
+
+#~ msgid ""
+#~ "\"NotShowIn\": A list of strings identifying the environments that should "
+#~ "not\n"
+#~ "display a given desktop entry. Only one of these keys, either OnlyShowIn or\n"
+#~ "NotShowIn, may appear in a group.\n"
+#~ "\n"
+#~ "Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+#~ "XFCE, Old"
+#~ msgstr ""
+#~ "Ключ: \"NotShowIn\" (Не показывать в). Тип: строка.\n"
+#~ "Значения: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old.\n"
+#~ "\n"
+#~ "Список значений, описывающих окружения DE, в которых данный пункт меню\n"
+#~ "не будет отображаться. Только один из ключей OnlyShowIn и NotShowIn может\n"
+#~ "быть использован в соответствующей группе файла .desktop"
+
+#~ msgid ""
+#~ "\"OnlyShowIn\": A list of strings identifying the environments that should\n"
+#~ "display a given desktop entry. Only one of these keys, either OnlyShowIn or\n"
+#~ "NotShowIn, may appear in a group.\n"
+#~ "\n"
+#~ "Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+#~ "XFCE, Old"
+#~ msgstr ""
+#~ "Ключ: \"OnlyShowIn\" (Показать только в). Тип: строка.\n"
+#~ "Значения: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old.\n"
+#~ "\n"
+#~ "Список значений, описывающих окружения DE, в которых данный пункт\n"
+#~ "меню будет отображаться.\n"
+#~ "\n"
+#~ "Только один из ключей OnlyShowIn и NotShowIn может быть использован\n"
+#~ "в соответствующей группе файла .desktop"
+
+#~ msgid ""
+#~ "\"TryExec\": Path to an executable file on disk used to determine if the "
+#~ "program\n"
+#~ "is actually installed. If the path is not an absolute path, the file is "
+#~ "looked\n"
+#~ "up in the $PATH environment variable. If the file is not present or if it "
+#~ "is\n"
+#~ "not executable, the entry may be ignored (not be used in menus, for "
+#~ "example). "
+#~ msgstr ""
+#~ "Ключ: \"TryExec\" (Путь проверки). Тип: строка.\n"
+#~ "\n"
+#~ "Путь к исполняемому файлу на диске, используемый для определения, "
+#~ "установлена ли\n"
+#~ "в настоящий момент программа. Если указан не абсолютный путь, система будет "
+#~ "искать\n"
+#~ "файл в расположениях, указанных в переменной среды $PATH.\n"
+#~ "\n"
+#~ "Если файл не обнаружен или не является исполняемым, пункт может "
+#~ "игнорироваться\n"
+#~ "системой (например, не будет отображаться в меню) "
+
+#~ msgid "\"MimeType\": The MIME type(s) supported by this application."
+#~ msgstr ""
+#~ "Ключ: \"MimeType\" (Тип MIME). Тип: строка.\n"
+#~ "\n"
+#~ "Содержит типы MIME, поддерживаемые программой"
+
+#~ msgid ""
+#~ "\"Keywords\": A list of strings which may be used in addition to other "
+#~ "metadata\n"
+#~ "to describe this entry. This can be useful e.g. to facilitate searching "
+#~ "through\n"
+#~ "entries. The values are not meant for display, and should not be redundant\n"
+#~ "with the values of Name or GenericName."
+#~ msgstr ""
+#~ "Ключ: \"Keywords\" (Ключевые слова). Тип: строка.\n"
+#~ "\n"
+#~ "Список значений, которые можно использовать совместно с другими метаданными\n"
+#~ "для описания этого пункта. Это может быть удобно, например, для облегчения\n"
+#~ "поиска пунктов в меню.\n"
+#~ "\n"
+#~ "Значения не предназначены для отображения и не должны быть избыточными\n"
+#~ "для ключей Name и GenericName"
+
+#~ msgid ""
+#~ "\"StartupWMClass\": If specified, it is known that the application will map "
+#~ "at\n"
+#~ "least one window with the given string as its WM class or WM name hint."
+#~ msgstr ""
+#~ "Ключ: \"StartupWMClass\" (Начальный класс WM). Тип: строка.\n"
+#~ "\n"
+#~ "Если указан, известно, что программа будет отображать как минимум одно\n"
+#~ "окно с указанным значением в качестве класса WM или описания класса WM"
+
+#~ msgid ""
+#~ "\"Hidden\": Hidden should have been called Deleted. It means the user "
+#~ "deleted\n"
+#~ "(at his level) something that was present (at an upper level, e.g. in the\n"
+#~ "system dirs). It's strictly equivalent to the .desktop file not existing at\n"
+#~ "all, as far as that user is concerned. This can also be used to "
+#~ "\"uninstall\"\n"
+#~ "existing files (e.g. due to a renaming) - by letting make install install a\n"
+#~ "file with Hidden=true in it."
+#~ msgstr ""
+#~ "Ключ: \"Hidden\" (Скрытый). Тип: логический. Значения: true, false.\n"
+#~ "\n"
+#~ "\"Скрытый\" следует понимать как \"Удалённый\". Означает, что пользователь "
+#~ "удалил\n"
+#~ "на своём уровне то, что ещё присутствует в системе на вышестоящем уровне\n"
+#~ "(в системных папках). Равнозначно удалению файла \".desktop\" для "
+#~ "пользователя.\n"
+#~ "\n"
+#~ "Ключ можно также использовать для \"удаления\" существующих файлов .desktop\n"
+#~ "(например, из-за переименования) — позволив команде make install установить\n"
+#~ "файл.desktop с содержащимся ключом Hidden=true"
+
+#~ msgid ""
+#~ "\"DBusActivatable\": A boolean value specifying if D-Bus activation is "
+#~ "supported\n"
+#~ "for this application. If this key is missing, the default value is false. "
+#~ "If\n"
+#~ "the value is true then implementations should ignore the Exec key and send "
+#~ "a\n"
+#~ "D-Bus message to launch the application. See D-Bus Activation for more\n"
+#~ "information on how this works. Applications should still include Exec= "
+#~ "lines\n"
+#~ "in their desktop files for compatibility with implementations that do not\n"
+#~ "understand the DBusActivatable key."
+#~ msgstr ""
+#~ "Ключ: \"DBusActivatable\" (DBus-активируемый). Тип: логический.\n"
+#~ "Значения: true, false.\n"
+#~ "\n"
+#~ "Указывается в случае поддержки приложением запуска через шину D-Bus. Если "
+#~ "значение не указано,\n"
+#~ "используется значение по умолчанию (false). Если указано значение true, "
+#~ "другие  программы будут\n"
+#~ "игнорировать ключ Exec и отправлять сообщение по D-Bus для запуска "
+#~ "программы.\n"
+#~ "\n"
+#~ "Подробнее о том, как это работает, описано в разделе D-Bus Activation "
+#~ "(http://standards.freedesktop.org).\n"
+#~ "Приложения всё ещё должны содержать в своих файлах .desktop ключ Exec для "
+#~ "совместимости\n"
+#~ "с программами, не распознающими ключ DBusActivatable"
+
+#~ msgid "Copyright © 2012-2014 Sean Davis"
+#~ msgstr "© 2012—2014 Sean Davis"

@@ -1,0 +1,13 @@
+--- menulibre/MenulibreApplication.py.orig	2016-03-13 20:28:14.524286212 +0100
++++ menulibre/MenulibreApplication.py	2016-03-13 20:28:36.876274442 +0100
+@@ -1418,6 +1418,10 @@
+         model, parent_data = self.treeview.get_parent_row_data()
+         model, row_data = self.treeview.get_selected_row_data()
+ 
++        # Exit early if no row is selected
++        if not row_data:
++            return
++
+         # Currently selected item is a directory, take its categories.
+         if row_data[2] == MenuItemTypes.DIRECTORY:
+             self.treeview.add_child(new_row_data)

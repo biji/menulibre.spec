@@ -1,0 +1,970 @@
+# Lithuanian translation for menulibre
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the menulibre package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: menulibre\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-05-18 22:03-0400\n"
+"PO-Revision-Date: 2015-03-20 19:33+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-05-20 05:33+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
+
+#: ../menulibre.desktop.in.h:1
+msgid "Menu Editor"
+msgstr "Meniu redaktorius"
+
+#: ../menulibre.desktop.in.h:2
+msgid "Add or remove applications from the menu"
+msgstr "Pridėkite ar šalinkite meniu programas"
+
+#: ../data/ui/MenulibreWindow.ui.h:1
+msgid "Add _Launcher"
+msgstr "Pridėti _leistuką"
+
+#: ../data/ui/MenulibreWindow.ui.h:2
+msgid "Add _Directory"
+msgstr "Pridėti _katalogą"
+
+#: ../data/ui/MenulibreWindow.ui.h:3
+msgid "Add _Separator"
+msgstr "Pridėti _skirtuką"
+
+#: ../data/ui/MenulibreWindow.ui.h:4
+msgid "Generic name of the application, for example \"Web Browser\"."
+msgstr "Bendrinis programos pavadinimas, pavyzdžiui, \"Interneto Naršyklė\"."
+
+#: ../data/ui/MenulibreWindow.ui.h:5
+msgid "Generic Name"
+msgstr "Bendrinis pavadinimas"
+
+#: ../data/ui/MenulibreWindow.ui.h:6
+msgid ""
+"A list of environments that should not display this entry. You can only use "
+"this key if \"OnlyShowIn\" is not set.\n"
+"Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+"XFCE, Old"
+msgstr ""
+"Aplinkų, kurios neturėtų rodyti šio įrašo, sąrašas. Galite naudoti šį raktą "
+"tik tuo atveju, jei nėra nustatytas \"RodomaTik\".\n"
+"Galimos reikšmės:  GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old"
+
+#: ../data/ui/MenulibreWindow.ui.h:8
+msgid "Not Shown In"
+msgstr "Nerodoma"
+
+#: ../data/ui/MenulibreWindow.ui.h:9
+msgid ""
+"A list of environments that should display this entry. Other environments "
+"will not display this entry. You can only use this key if \"NotShowIn\" is "
+"not set.\n"
+"Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+"XFCE, Old"
+msgstr ""
+"Aplinkų, kurios turėtų rodyti šį įrašą, sąrašas. Kitos aplinkos šio įrašo "
+"nerodys. Galite naudoti šį raktą tik tuo atveju, jei nėra nustatytas "
+"\"Nerodoma\".\n"
+"Galimos reikšmės:  GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old"
+
+#: ../data/ui/MenulibreWindow.ui.h:11
+msgid "Only Shown In"
+msgstr "Rodoma tik"
+
+#: ../data/ui/MenulibreWindow.ui.h:12
+msgid ""
+"Path to an executable file to determine if the program is installed. If the "
+"file is not present or is not executable, this entry may not be shown in a "
+"menu."
+msgstr ""
+"Kelias į failą, leidžiamą vykdyti kaip programą, siekiant nustatyti ar "
+"programa yra įdiegta. Jei failo nėra arba neleidžiama jo vykdyti kaip "
+"programą, šis įrašas meniu gali būti nerodomas."
+
+#: ../data/ui/MenulibreWindow.ui.h:13
+msgid "Try Exec"
+msgstr "Bandyti vykdyti"
+
+#: ../data/ui/MenulibreWindow.ui.h:14
+msgid "The MIME type(s) supported by this application."
+msgstr "Šios programos palaikomi MIME tipai."
+
+#: ../data/ui/MenulibreWindow.ui.h:15
+msgid "Mimetypes"
+msgstr "Mime tipai"
+
+#: ../data/ui/MenulibreWindow.ui.h:16
+msgid ""
+"A list of keywords to describe this entry. You can use these to help "
+"searching entries. These are not meant for display, and should not be "
+"redundant with the values of Name or GenericName."
+msgstr ""
+"Raktažodžių, aprašančių šį įrašą, sąrašas. Galite naudoti raktažodžius kaip "
+"pagalbinę įrašų paieškos priemonę. Jie nėra skirti rodymui ir neturėtų "
+"dubliuotis su Pavadinimo ir BendrinioPavadinimo reikšmėmis."
+
+#: ../data/ui/MenulibreWindow.ui.h:17
+msgid "Keywords"
+msgstr "Raktažodžiai"
+
+#: ../data/ui/MenulibreWindow.ui.h:18
+msgid ""
+"If specified, the application will be requested to use the string as a WM "
+"class or a WM name hint at least in one window."
+msgstr ""
+"Jei nurodyta, programos bus paprašyta bent viename lange, eilutę naudoti "
+"kaip WM klasę arba WM pavadinimo užuominą."
+
+#: ../data/ui/MenulibreWindow.ui.h:19
+msgid "Startup WM Class"
+msgstr "Paleidimo WM klasė"
+
+#: ../data/ui/MenulibreWindow.ui.h:20
+msgid ""
+"If set to \"True\", the result for the user is equivalent to the .desktop "
+"file not existing at all."
+msgstr ""
+"Jei nustatyta į \"Tiesa\", tuomet naudotojui bus pateikiamas toks "
+"rezultatas, tarsi .desktop failo iš viso nebūtų."
+
+#: ../data/ui/MenulibreWindow.ui.h:21
+msgid "Hidden"
+msgstr "Paslėpta"
+
+#: ../data/ui/MenulibreWindow.ui.h:22
+msgid ""
+"Set this key to \"True\" if D-Bus activation is supported for this "
+"application and you want to use it.\n"
+"See http://standards.freedesktop.org/desktop-entry-spec/latest/ar01s07.html "
+"for more information."
+msgstr ""
+"Nustatykite šį raktą į \"Tiesa\", jei šiai programai yra palaikomas D-Bus "
+"aktyvavimas ir jūs norite jį naudoti.\n"
+"Išsamesnei informacijai žiūrėkite http://standards.freedesktop.org/desktop-"
+"entry-spec/latest/ar01s07.html."
+
+#: ../data/ui/MenulibreWindow.ui.h:24
+msgid "DBUS Activatable"
+msgstr "DBUS aktyvuojamas"
+
+#: ../data/ui/MenulibreWindow.ui.h:25
+msgid "Browse Icons…"
+msgstr "Naršyti piktogramas..."
+
+#: ../data/ui/MenulibreWindow.ui.h:26
+msgid "Browse Files..."
+msgstr "Naršyti failus..."
+
+#: ../data/ui/MenulibreWindow.ui.h:27 ../menulibre/Dialogs.py:38
+#: ../menulibre/MenulibreApplication.py:237
+#: ../menulibre/MenulibreApplication.py:276
+msgid "MenuLibre"
+msgstr "MenuLibre"
+
+#: ../data/ui/MenulibreWindow.ui.h:28
+msgid "Save Launcher"
+msgstr "Įrašyti leistuką"
+
+#: ../data/ui/MenulibreWindow.ui.h:29 ../menulibre/MenulibreApplication.py:342
+msgid "Undo"
+msgstr "Atšaukti"
+
+#: ../data/ui/MenulibreWindow.ui.h:30 ../menulibre/MenulibreApplication.py:349
+msgid "Redo"
+msgstr "Atstatyti"
+
+#: ../data/ui/MenulibreWindow.ui.h:31 ../menulibre/MenulibreApplication.py:356
+msgid "Revert"
+msgstr "Atkurti"
+
+#: ../data/ui/MenulibreWindow.ui.h:32 ../menulibre/MenulibreApplication.py:363
+msgid "Delete"
+msgstr "Ištrinti"
+
+#: ../data/ui/MenulibreWindow.ui.h:33
+msgid "Move Up"
+msgstr "Perkelti aukštyn"
+
+#: ../data/ui/MenulibreWindow.ui.h:34
+msgid "Move Down"
+msgstr "Nuleisti žemyn"
+
+#: ../data/ui/MenulibreWindow.ui.h:35
+msgid "<small><i>Filename</i></small>"
+msgstr "<small><i>Failo pavadinimas</i></small>"
+
+#: ../data/ui/MenulibreWindow.ui.h:36
+msgid "<big><b>Application Name</b></big>"
+msgstr "<big><b>Programos pavadinimas</b></big>"
+
+#: ../data/ui/MenulibreWindow.ui.h:37
+msgid "Application Name"
+msgstr "Programos pavadinimas"
+
+#: ../data/ui/MenulibreWindow.ui.h:38
+msgid "Application Comment"
+msgstr "Programos komentaras"
+
+#: ../data/ui/MenulibreWindow.ui.h:39 ../menulibre/MenulibreApplication.py:683
+msgid "Description"
+msgstr "Aprašas"
+
+#: ../data/ui/MenulibreWindow.ui.h:40
+msgid ""
+"Program to execute with arguments. This key is required if DBusActivatable "
+"is not set to \"True\" or if you need compatibility with implementations "
+"that do not understand D-Bus activation.\n"
+"See http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html#exec-variables for a list of supported arguments."
+msgstr ""
+"Su argumentais vykdoma programa. Šis raktas yra reikalingas, jei "
+"DBusAktyvuojamas yra nustatyta į \"Tiesa\" arba jei jums reikalingas "
+"suderinamumas su realizavimais, kurie nesupranta D-Bus aktyvavimo.\n"
+"Palaikomų argumentų sąrašą žiūrėkite adresu "
+"http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html#exec-variables"
+
+#: ../data/ui/MenulibreWindow.ui.h:42
+msgid "Command"
+msgstr "Komanda"
+
+#: ../data/ui/MenulibreWindow.ui.h:43
+msgid "The working directory."
+msgstr "Darbinis katalogas"
+
+#: ../data/ui/MenulibreWindow.ui.h:44
+msgid "Working Directory"
+msgstr "Darbinis katalogas"
+
+#: ../data/ui/MenulibreWindow.ui.h:45
+msgid "<b>Application Details</b>"
+msgstr "<b>Išsamiau apie programą</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:46
+msgid "If set to \"True\", the program will be ran in a terminal window."
+msgstr ""
+"Jei nustatyta į \"Tiesa\", tuomet programa bus vykdoma terminalo lange."
+
+#: ../data/ui/MenulibreWindow.ui.h:47
+msgid "Run in terminal"
+msgstr "Vykdyti terminale"
+
+#: ../data/ui/MenulibreWindow.ui.h:48
+msgid ""
+"If set to \"True\", a startup notification is sent. Usually means that a "
+"busy cursor is shown while the application launches."
+msgstr ""
+"Jei nustatyta į \"Tiesa\", tuomet bus siunčiamas paleidimo pranešimas. "
+"Dažniausiai, tai reiškia, kad kol bus paleidžiama programa, žymeklis bus "
+"rodomas kaip užimtas."
+
+#: ../data/ui/MenulibreWindow.ui.h:49
+msgid "Use startup notification"
+msgstr "Naudoti paleidimo pranešimą"
+
+#: ../data/ui/MenulibreWindow.ui.h:50
+msgid ""
+"If set to \"True\", this entry will not be shown in menus, but will be "
+"available for MIME type associations etc."
+msgstr ""
+"Jei nustatyta į \"Tiesa\", tuomet šis įrašas nebus rodomas meniu, tačiau bus "
+"prieinamas MIME tipų susiejimui ir t.t."
+
+#: ../data/ui/MenulibreWindow.ui.h:51
+msgid "Hide from menus"
+msgstr "Slėpti iš meniu"
+
+#: ../data/ui/MenulibreWindow.ui.h:52
+msgid "<b>Options</b>"
+msgstr "<b>Parinktys</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:53
+msgid "Add"
+msgstr "Pridėti"
+
+#: ../data/ui/MenulibreWindow.ui.h:54
+msgid "Remove"
+msgstr "Šalinti"
+
+#: ../data/ui/MenulibreWindow.ui.h:55
+msgid "Clear"
+msgstr "Išvalyti"
+
+#: ../data/ui/MenulibreWindow.ui.h:56
+msgid "Show"
+msgstr "Rodyti"
+
+#: ../data/ui/MenulibreWindow.ui.h:57
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: ../data/ui/MenulibreWindow.ui.h:58
+msgid "Select an icon…"
+msgstr "Pasirinkite piktogramą..."
+
+#: ../data/ui/MenulibreWindow.ui.h:59 ../menulibre/Dialogs.py:62
+#: ../menulibre/Dialogs.py:85 ../menulibre/Dialogs.py:101
+#: ../menulibre/Dialogs.py:124 ../menulibre/Dialogs.py:132
+#: ../menulibre/MenulibreIconSelection.py:79
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: ../data/ui/MenulibreWindow.ui.h:60
+msgid "Apply"
+msgstr "Taikyti"
+
+#: ../data/ui/MenulibreWindow.ui.h:61
+msgid "<b>Select an icon</b>"
+msgstr "<b>Pasirinkite piktogramą</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:62
+msgid "Search"
+msgstr "Ieškoti"
+
+#: ../data/ui/MenulibreWindow.ui.h:63
+msgid "column"
+msgstr "stulpelis"
+
+#: ../data/ui/MenulibreWindow.ui.h:64
+msgid "Search terms…"
+msgstr "Paieškos žodžiai..."
+
+#: ../menulibre/__init__.py:33
+msgid "Show debug messages"
+msgstr "Rodyti derinimo pranešimus"
+
+#. Populate the AboutDialog with all the relevant details.
+#: ../menulibre/Dialogs.py:37
+msgid "About MenuLibre"
+msgstr "Apie MenuLibre"
+
+#: ../menulibre/Dialogs.py:40
+msgid "Copyright © 2012-2015 Sean Davis"
+msgstr "Autorių Teisės © 2012-2015 Sean Davis"
+
+#: ../menulibre/Dialogs.py:55
+msgid "Do you want to read the MenuLibre manual online?"
+msgstr "Ar norite skaityti MenuLibre žinyną tinkle?"
+
+#: ../menulibre/Dialogs.py:56
+msgid ""
+"You will be redirected to the documentation website where the help pages are "
+"maintained."
+msgstr ""
+"Jūs būsite nukreipti į dokumentacijos svetainę, kurioje yra prižiūrimi "
+"pagalbos puslapiai."
+
+#: ../menulibre/Dialogs.py:63
+msgid "Read Online"
+msgstr "Skaityti internete"
+
+#: ../menulibre/Dialogs.py:64
+msgid "Online Documentation"
+msgstr "Dokumentacija internete"
+
+#: ../menulibre/Dialogs.py:75
+msgid "Do you want to save the changes before closing?"
+msgstr "Ar prieš užveriant, norite įrašyti pakeitimus?"
+
+#: ../menulibre/Dialogs.py:76
+msgid "If you don't save the launcher, all the changes will be lost.'"
+msgstr "Jei leistuko neįrašysite, visi pakeitimai bus prarasti."
+
+#: ../menulibre/Dialogs.py:83 ../menulibre/Dialogs.py:99
+msgid "Save Changes"
+msgstr "Įrašyti pakeitimus"
+
+#: ../menulibre/Dialogs.py:84 ../menulibre/Dialogs.py:100
+msgid "Don't Save"
+msgstr "Neįrašyti"
+
+#: ../menulibre/Dialogs.py:86 ../menulibre/Dialogs.py:102
+#: ../menulibre/MenulibreApplication.py:335
+msgid "Save"
+msgstr "Įrašyti"
+
+#: ../menulibre/Dialogs.py:90
+msgid "Do you want to save the changes before leaving this launcher?"
+msgstr "Ar prieš paliekant šį leistuką, norite įrašyti pakeitimus?"
+
+#: ../menulibre/Dialogs.py:92
+msgid "If you don't save the launcher, all the changes will be lost."
+msgstr "Jei leistuko neįrašysite, visi pakeitimai bus prarasti."
+
+#: ../menulibre/Dialogs.py:106
+msgid "This cannot be undone."
+msgstr "Tai negali būti atšaukta."
+
+#: ../menulibre/Dialogs.py:115
+msgid "Are you sure you want to restore this launcher?"
+msgstr "Ar tikrai norite atkurti šį leistuką?"
+
+#: ../menulibre/Dialogs.py:116
+msgid ""
+"All changes since the last saved state will be lost and cannot be restored "
+"automatically."
+msgstr ""
+"Visi pakeitimai nuo paskutinės įrašytos būsenos bus prarasti ir negalės būti "
+"automatiškai atkurti."
+
+#: ../menulibre/Dialogs.py:125 ../menulibre/Dialogs.py:126
+msgid "Restore Launcher"
+msgstr "Atkurti leistuką"
+
+#: ../menulibre/Dialogs.py:133 ../menulibre/MenulibreIconSelection.py:80
+msgid "OK"
+msgstr "Gerai"
+
+#: ../menulibre/MenuEditor.py:87 ../menulibre/MenulibreApplication.py:1029
+#: ../menulibre/MenulibreApplication.py:1463
+msgid "Separator"
+msgstr "Skirtukas"
+
+#. Standard Items
+#: ../menulibre/MenulibreApplication.py:40
+msgid "Multimedia"
+msgstr "Multimedija"
+
+#: ../menulibre/MenulibreApplication.py:41
+msgid "Development"
+msgstr "Programavimas"
+
+#: ../menulibre/MenulibreApplication.py:42
+msgid "Education"
+msgstr "Švietimas"
+
+#: ../menulibre/MenulibreApplication.py:43
+msgid "Games"
+msgstr "Žaidimai"
+
+#: ../menulibre/MenulibreApplication.py:44
+msgid "Graphics"
+msgstr "Grafika"
+
+#: ../menulibre/MenulibreApplication.py:45
+msgid "Internet"
+msgstr "Internetas"
+
+#: ../menulibre/MenulibreApplication.py:46
+msgid "Office"
+msgstr "Raštinė"
+
+#: ../menulibre/MenulibreApplication.py:47
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: ../menulibre/MenulibreApplication.py:48
+msgid "System"
+msgstr "Sistema"
+
+#: ../menulibre/MenulibreApplication.py:49
+msgid "Accessories"
+msgstr "Reikmenys"
+
+#: ../menulibre/MenulibreApplication.py:50
+msgid "WINE"
+msgstr "WINE"
+
+#. Desktop Environment
+#: ../menulibre/MenulibreApplication.py:52
+msgid "Desktop configuration"
+msgstr "Darbalaukio konfigūracija"
+
+#: ../menulibre/MenulibreApplication.py:53
+msgid "User configuration"
+msgstr "Naudotojo konfigūracija"
+
+#: ../menulibre/MenulibreApplication.py:54
+msgid "Hardware configuration"
+msgstr "Aparatinės įrangos konfigūracija"
+
+#. GNOME Specific
+#: ../menulibre/MenulibreApplication.py:56
+msgid "GNOME application"
+msgstr "GNOME programa"
+
+#: ../menulibre/MenulibreApplication.py:57
+msgid "GTK+ application"
+msgstr "GTK+ programa"
+
+#: ../menulibre/MenulibreApplication.py:58
+msgid "GNOME user configuration"
+msgstr "GNOME naudotojo konfigūracija"
+
+#: ../menulibre/MenulibreApplication.py:59
+msgid "GNOME hardware configuration"
+msgstr "GNOME aparatinės įrangos konfigūracija"
+
+#: ../menulibre/MenulibreApplication.py:60
+#: ../menulibre/MenulibreApplication.py:61
+msgid "GNOME system configuration"
+msgstr "GNOME sistemos konfigūracija"
+
+#. Xfce Specific
+#: ../menulibre/MenulibreApplication.py:63
+#: ../menulibre/MenulibreApplication.py:64
+msgid "Xfce menu item"
+msgstr "Xfce meniu elementas"
+
+#: ../menulibre/MenulibreApplication.py:65
+msgid "Xfce toplevel menu item"
+msgstr "Xfce aukščiausio lygio meniu elementas"
+
+#: ../menulibre/MenulibreApplication.py:66
+msgid "Xfce user configuration"
+msgstr "Xfce naudotojo konfigūracija"
+
+#: ../menulibre/MenulibreApplication.py:67
+msgid "Xfce hardware configuration"
+msgstr "Xfce aparatinės įrangos konfigūracija"
+
+#: ../menulibre/MenulibreApplication.py:68
+#: ../menulibre/MenulibreApplication.py:69
+msgid "Xfce system configuration"
+msgstr "Xfce sistemos konfigūracija"
+
+#: ../menulibre/MenulibreApplication.py:117
+#: ../menulibre/MenulibreApplication.py:162
+msgid "Other"
+msgstr "Kita"
+
+#: ../menulibre/MenulibreApplication.py:214
+msgid "MenuLibre cannot be run as root."
+msgstr "MenuLibre negali būti vykdoma kaip root."
+
+#: ../menulibre/MenulibreApplication.py:215
+msgid ""
+"Please see the <a "
+"href='https://wiki.smdavis.us/doku.php?id=menulibre_faq'>online "
+"documentation</a> for more information."
+msgstr ""
+"Išsamesnei informacijai, prašome žiūrėti <a "
+"href='https://wiki.smdavis.us/doku.php?id=menulibre_faq'>dokumentaciją "
+"internete</a>."
+
+#: ../menulibre/MenulibreApplication.py:313
+msgid "Add _Launcher..."
+msgstr "Pridėti _leistuką..."
+
+#: ../menulibre/MenulibreApplication.py:314
+msgid "Add Launcher..."
+msgstr "Pridėti leistuką..."
+
+#: ../menulibre/MenulibreApplication.py:320
+msgid "Add _Directory..."
+msgstr "Pridėti _katalogą..."
+
+#: ../menulibre/MenulibreApplication.py:321
+msgid "Add Directory..."
+msgstr "Pridėti katalogą..."
+
+#: ../menulibre/MenulibreApplication.py:327
+msgid "_Add Separator..."
+msgstr "Pridėti _skirtuką..."
+
+#: ../menulibre/MenulibreApplication.py:328
+msgid "Add Separator..."
+msgstr "Pridėti skirtuką..."
+
+#: ../menulibre/MenulibreApplication.py:334
+msgid "_Save"
+msgstr "Į_rašyti"
+
+#: ../menulibre/MenulibreApplication.py:341
+msgid "_Undo"
+msgstr "_Atšaukti"
+
+#: ../menulibre/MenulibreApplication.py:348
+msgid "_Redo"
+msgstr "At_statyti"
+
+#: ../menulibre/MenulibreApplication.py:355
+msgid "_Revert"
+msgstr "At_kurti"
+
+#: ../menulibre/MenulibreApplication.py:362
+msgid "_Delete"
+msgstr "_Ištrinti"
+
+#: ../menulibre/MenulibreApplication.py:369
+msgid "_Quit"
+msgstr "_Baigti"
+
+#: ../menulibre/MenulibreApplication.py:370
+#: ../menulibre/MenulibreApplication.py:1736
+msgid "Quit"
+msgstr "Baigti"
+
+#: ../menulibre/MenulibreApplication.py:376
+msgid "_Contents"
+msgstr "Ži_nynas"
+
+#: ../menulibre/MenulibreApplication.py:377
+#: ../menulibre/MenulibreApplication.py:1734
+msgid "Help"
+msgstr "Pagalba"
+
+#: ../menulibre/MenulibreApplication.py:383
+msgid "_About"
+msgstr "_Apie"
+
+#: ../menulibre/MenulibreApplication.py:384
+#: ../menulibre/MenulibreApplication.py:1735
+msgid "About"
+msgstr "Apie"
+
+#: ../menulibre/MenulibreApplication.py:506
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: ../menulibre/MenulibreApplication.py:508
+msgid "Actions"
+msgstr "Veiksmai"
+
+#: ../menulibre/MenulibreApplication.py:510
+msgid "Advanced"
+msgstr "Išsamiau"
+
+#: ../menulibre/MenulibreApplication.py:657
+msgid "ThisEntry"
+msgstr "ŠisĮrašas"
+
+#: ../menulibre/MenulibreApplication.py:675
+msgid "Select a category"
+msgstr "Pasirinkite kategoriją"
+
+#: ../menulibre/MenulibreApplication.py:678
+msgid "Category Name"
+msgstr "Kategorijos pavadinimas"
+
+#: ../menulibre/MenulibreApplication.py:762
+msgid "This Entry"
+msgstr "Šis įrašas"
+
+#: ../menulibre/MenulibreApplication.py:817
+msgid "New Shortcut"
+msgstr "Naujas susiejimas"
+
+#: ../menulibre/MenulibreApplication.py:963
+msgid "Select a working directory..."
+msgstr "Pasirinkite darbinį katalogą..."
+
+#: ../menulibre/MenulibreApplication.py:966
+msgid "Select an executable..."
+msgstr "Pasirinkite vykdomąjį..."
+
+#: ../menulibre/MenulibreApplication.py:988
+msgid "Cannot add subdirectories to preinstalled system paths."
+msgstr ""
+"Nepavyko pridėti pakatalogių į preliminariai įdiegtus sistemos kelius."
+
+#. Display a dialog saying this item is missing
+#: ../menulibre/MenulibreApplication.py:1078
+msgid "No Longer Installed"
+msgstr "Daugiau nebėra įdiegta"
+
+#: ../menulibre/MenulibreApplication.py:1079
+msgid ""
+"This launcher has been removed from the system.\n"
+"Selecting the next available item."
+msgstr ""
+"Šis leistukas yra pašalintas iš sistemos.\n"
+"Pasirenkamas kitas prieinamas elementas."
+
+#: ../menulibre/MenulibreApplication.py:1179
+msgid "You do not have permission to delete this file."
+msgstr "Jūs neturite leidimo ištrinti šį failą."
+
+#: ../menulibre/MenulibreApplication.py:1411
+msgid "New Launcher"
+msgstr "Naujas leistukas"
+
+#: ../menulibre/MenulibreApplication.py:1446
+msgid "New Directory"
+msgstr "Naujas katalogas"
+
+#: ../menulibre/MenulibreApplication.py:1683
+msgid "Are you sure you want to delete this separator?"
+msgstr "Ar tikrai norite ištrinti šį skirtuką?"
+
+#: ../menulibre/MenulibreApplication.py:1686
+#, python-format
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Ar tikrai norite ištrinti \"%s\"?"
+
+#: ../menulibre/MenulibreIconSelection.py:76
+msgid "Select an image"
+msgstr "Pasirinkite paveikslą"
+
+#: ../menulibre/MenulibreIconSelection.py:84
+msgid "Images"
+msgstr "Paveikslai"
+
+#. Create a new column.
+#: ../menulibre/MenulibreTreeview.py:60
+msgid "Search Results"
+msgstr "Paieškos rezultatai"
+
+#: ../menulibre/MenulibreXdg.py:53
+msgid "New Menu Item"
+msgstr "Naujas meniu elementas"
+
+#: ../menulibre/MenulibreXdg.py:55
+msgid "A small descriptive blurb about this application."
+msgstr "Trumpas ir aiškus šios programos aprašas."
+
+#~ msgid "Image File"
+#~ msgstr "Paveikslo Failas"
+
+#~ msgid "Icon Selection"
+#~ msgstr "Piktogramos Pasirinkimas"
+
+#~ msgid "Icon Name"
+#~ msgstr "Piktogramos Pavadinimas"
+
+#~ msgid "_Edit"
+#~ msgstr "K_eisti"
+
+#~ msgid "_Help"
+#~ msgstr "_Pagalba"
+
+#~ msgid "_File"
+#~ msgstr "_Failas"
+
+#~ msgid "<b>Select an image</b>"
+#~ msgstr "<b>Pasirinkite paveikslą</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Peržiūra</b>"
+
+#~ msgid "32px"
+#~ msgstr "32tšk"
+
+#~ msgid "16px"
+#~ msgstr "16tšk"
+
+#~ msgid "128px"
+#~ msgstr "128tšk"
+
+#~ msgid "64px"
+#~ msgstr "64tšk"
+
+#~ msgid "Browse…"
+#~ msgstr "Naršyti…"
+
+#~ msgid "Action Name"
+#~ msgstr "Veiksmo Pavadinimas"
+
+#~ msgid "Copyright © 2012-2014 Sean Davis"
+#~ msgstr "Autorinės Teisės © 2012-2014 Sean Davis"
+
+#~ msgid ""
+#~ "\"Keywords\": A list of strings which may be used in addition to other "
+#~ "metadata\n"
+#~ "to describe this entry. This can be useful e.g. to facilitate searching "
+#~ "through\n"
+#~ "entries. The values are not meant for display, and should not be redundant\n"
+#~ "with the values of Name or GenericName."
+#~ msgstr ""
+#~ "\"Raktažodžiai\": Eilučių, kurios gali būti papildomai rodomos prie kitų, šį "
+#~ "įrašą\n"
+#~ "aprašančių metaduomenų, sąrašas. Tai gali praversti, norint palengvinti "
+#~ "paiešką\n"
+#~ "per įrašus. Reikšmės nėra skirtos rodymui ir neturėtų kartotis su "
+#~ "reikšmėmis,\n"
+#~ "nurodytomis raktuose Pavadinimas ar Bendrinis Pavadinimas."
+
+#~ msgid "\"Path\": The working directory to run the program in."
+#~ msgstr "\"Kelias\": Darbinis katalogas, kuriame vykdyti programą."
+
+#~ msgid ""
+#~ "\"GenericName\": Generic name of the application, for example \"Web "
+#~ "Browser\"."
+#~ msgstr ""
+#~ "\"BendrinisPavadinimas\": Bendrinis programos pavadinimas, pavyzdžiui, "
+#~ "\"Saityno naršyklė\"."
+
+#~ msgid "\"Terminal\": Whether the program runs in a terminal window."
+#~ msgstr "\"Terminalas\": Ar programa bus vykdoma terminalo lange."
+
+#~ msgid ""
+#~ "\"TryExec\": Path to an executable file on disk used to determine if the "
+#~ "program\n"
+#~ "is actually installed. If the path is not an absolute path, the file is "
+#~ "looked\n"
+#~ "up in the $PATH environment variable. If the file is not present or if it "
+#~ "is\n"
+#~ "not executable, the entry may be ignored (not be used in menus, for "
+#~ "example). "
+#~ msgstr ""
+#~ "\"BandytiVykdyti\": Kelias į diske esantį failą, kuris yra naudojamas "
+#~ "siekiant nustatyti\n"
+#~ "ar programa yra įdiegta. Jei kelias nėra absoliutus kelias, tuomet failo bus "
+#~ "ieškoma\n"
+#~ "$PATH aplinkos kintamajame. Jei failo nėra arba jis nėra vykdomasis, tuomet\n"
+#~ "įrašo gali būti nepaisoma (pavyzdžiui, jis nebus naudojamas meniu). "
+
+#~ msgid ""
+#~ "\"NotShowIn\": A list of strings identifying the environments that should "
+#~ "not\n"
+#~ "display a given desktop entry. Only one of these keys, either OnlyShowIn or\n"
+#~ "NotShowIn, may appear in a group.\n"
+#~ "\n"
+#~ "Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+#~ "XFCE, Old"
+#~ msgstr ""
+#~ "\"Nerodoma\": Eilučių identifikuojančių aplinkas, kurios neturėtų rodyti "
+#~ "duotojo\n"
+#~ "darbalaukio įrašo, sąrašas. Grupėje gali pasirodyti tik vienas iš šių įrašų, "
+#~ "arba RodomaTik,\n"
+#~ "arba Nerodoma.\n"
+#~ "\n"
+#~ "Galimos reikšmės: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old"
+
+#~ msgid ""
+#~ "\"OnlyShowIn\": A list of strings identifying the environments that should\n"
+#~ "display a given desktop entry. Only one of these keys, either OnlyShowIn or\n"
+#~ "NotShowIn, may appear in a group.\n"
+#~ "\n"
+#~ "Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+#~ "XFCE, Old"
+#~ msgstr ""
+#~ "\"RodomaTik\": Eilučių identifikuojančių aplinkas, kurios turėtų rodyti "
+#~ "duotąjį\n"
+#~ "darbalaukio įrašą, sąrašas. Grupėje gali pasirodyti tik vienas iš šių įrašų, "
+#~ "arba RodomaTik,\n"
+#~ "arba Nerodoma.\n"
+#~ "\n"
+#~ "Galimos reikšmės: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, XFCE, Old"
+
+#~ msgid "\"MimeType\": The MIME type(s) supported by this application."
+#~ msgstr "\"MimeTipas\": Šios programos palaikomas MIME tipas(-ai)."
+
+#~ msgid ""
+#~ "\"Hidden\": Hidden should have been called Deleted. It means the user "
+#~ "deleted\n"
+#~ "(at his level) something that was present (at an upper level, e.g. in the\n"
+#~ "system dirs). It's strictly equivalent to the .desktop file not existing at\n"
+#~ "all, as far as that user is concerned. This can also be used to "
+#~ "\"uninstall\"\n"
+#~ "existing files (e.g. due to a renaming) - by letting make install install a\n"
+#~ "file with Hidden=true in it."
+#~ msgstr ""
+#~ "\"Paslėpta\": Paslėpta turėtų būti vadinama Ištrinta. Tai reiškia, kad "
+#~ "naudotojas\n"
+#~ "ištrynė (savo lygmenyje) kažką, kas buvo (aukštensiajame lygmenyje,\n"
+#~ "pvz., sistemos kataloguose). Tai griežtai atitinka tai, lyg .desktop failo "
+#~ "iš viso\n"
+#~ "nebūtų, tol, kol naudotojui tai rūpi. Tai taip pat gali būti naudojama,\n"
+#~ "kad būtų \"pašalinti\" esami failai (pvz., dėl pervadinimo) - leisdami "
+#~ "padaryti įdiegimą\n"
+#~ "įdiekite failą su jame esančiu Hidden=true."
+
+#~ msgid ""
+#~ "\"NoDisplay\": NoDisplay means \"this application exists, but don't display "
+#~ "it in\n"
+#~ "the menus\". This can be useful to e.g. associate this application with "
+#~ "MIME\n"
+#~ "types, so that it gets launched from a file manager (or other apps), "
+#~ "without\n"
+#~ "having a menu entry for it (there are tons of good reasons for this,\n"
+#~ "including e.g. the netscape -remote, or kfmclient openURL kind of stuff)."
+#~ msgstr ""
+#~ "\"NeRodyti\": NeRodyti reiškia \"ši programa yra, tačiau meniu jos "
+#~ "nerodykite\".\n"
+#~ "Tai gali būti naudinga, pvz., norint susieti šią programą su MIME tipais,\n"
+#~ "kad tokiu būdų, ji būtų paleidžiama iš failų tvarkytuvės (ar kitų programų), "
+#~ "\n"
+#~ "neturėdama savo meniu įrašo (tam yra daug priežasčių, įskaitant\n"
+#~ "pvz., netscape -remote, ar kfmclient openURL tipo dalykus)."
+
+#~ msgid ""
+#~ "\"StartupWMClass\": If specified, it is known that the application will map "
+#~ "at\n"
+#~ "least one window with the given string as its WM class or WM name hint."
+#~ msgstr ""
+#~ "\"PaleidimoWMKlasė\": Jei nurodyta, yra žinoma, kad programa bent viename\n"
+#~ " lange bus atvaizduojama su nurodyta eilute kaip savo WM klase ar \n"
+#~ "WM pavadinimo užuomina."
+
+#~ msgid ""
+#~ "\"StartupNotify\": If true, it is KNOWN that the application will send a "
+#~ "\"remove\"\n"
+#~ "message when started with the DESKTOP_STARTUP_ID environment variable set. "
+#~ "If\n"
+#~ "false, it is KNOWN that the application does not work with startup "
+#~ "notification\n"
+#~ "at all (does not shown any window, breaks even when using StartupWMClass, "
+#~ "etc.).\n"
+#~ "If absent, a reasonable handling is up to implementations (assuming false,\n"
+#~ "using StartupWMClass, etc.)."
+#~ msgstr ""
+#~ "\"PaleidimoPranešimas\": Jei \"Tiesa\", yra ŽINOMA, kad programa, kai bus "
+#~ "paleista su\n"
+#~ "DESKTOP_STARTUP_ID aplinkos kintamojo rinkiniu, siųs pranešimą \"šalinti\". "
+#~ "Jei\n"
+#~ "\"Netiesa\", yra ŽINOMA, kad programa su paleidimo pranešimu iš viso "
+#~ "neveikia\n"
+#~ "(nerodomas joks langas, yra nutraukiama net naudojant PaleidimoWMKlasė, ir "
+#~ "t.t.).\n"
+#~ "Nebuvimo atveju, supratingas apdorojimas priklausys nuo įgyvendinimo "
+#~ "(numanant Netiesa,\n"
+#~ "naudojant PaleidimoWMKlasė, ir t.t.)."
+
+#~ msgid ""
+#~ "\"Exec\": Program to execute, possibly with arguments. The Exec key is "
+#~ "required\n"
+#~ "if DBusActivatable is not set to true. Even if DBusActivatable is true, "
+#~ "Exec\n"
+#~ "should be specified for compatibility with implementations that do not\n"
+#~ "understand DBusActivatable. \n"
+#~ "\n"
+#~ "Please see\n"
+#~ "http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+#~ "latest.html#exec-variables\n"
+#~ "for a list of supported arguments."
+#~ msgstr ""
+#~ "\"Vykdyti\": Programa, kurią vykdyti, galimai, su argumentais. Raktas "
+#~ "Vykdyti yra\n"
+#~ "reikalingas jei DBusAktyvuojamas yra nustatytas į Netiesa. Netgi jei "
+#~ "DBusAktyvuojamas,\n"
+#~ "yra nustatytas į Tiesa, raktas Vykdyti turėtų būti nurodomas suderinamumui "
+#~ "su\n"
+#~ "įgyvendinimais, kurie nesupranta DBusAktyvuojamas. \n"
+#~ "\n"
+#~ "Visų palaikomų argumentų sąrašui, prašome žiūrėti\n"
+#~ "http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+#~ "latest.html#exec-variables"
+
+#~ msgid ""
+#~ "\"DBusActivatable\": A boolean value specifying if D-Bus activation is "
+#~ "supported\n"
+#~ "for this application. If this key is missing, the default value is false. "
+#~ "If\n"
+#~ "the value is true then implementations should ignore the Exec key and send "
+#~ "a\n"
+#~ "D-Bus message to launch the application. See D-Bus Activation for more\n"
+#~ "information on how this works. Applications should still include Exec= "
+#~ "lines\n"
+#~ "in their desktop files for compatibility with implementations that do not\n"
+#~ "understand the DBusActivatable key."
+#~ msgstr ""
+#~ "\"DBusAktyvuojamas\": Loginė reikšmė, nurodanti ar šiai programai yra "
+#~ "palaikomas\n"
+#~ "D-Bus aktyvavimas. Jei rakto nėra, numatytoji reikšmė yra \"netiesa\". Jei "
+#~ "reikšmė\n"
+#~ "yra \"tiesa\", tuomet įgyvendinimai turėtų nepaisyti rakto Vykdyti (Exec) ir "
+#~ "siųsti\n"
+#~ "D-Bus pranešimą, kad paleistų programą. Išsamesnei informacijai kaip tai "
+#~ "veikia,\n"
+#~ "žiūrėkite D-Bus Aktyvavimas. Programos vis tiek, iš suderinamumo su "
+#~ "įgyvendinimais,\n"
+#~ "nesuprantančiais rakto DBus Aktyvuojamas,  sumetimų, turėtų į savo desktop "
+#~ "failus\n"
+#~ "įtraukti Exec= eilutes."

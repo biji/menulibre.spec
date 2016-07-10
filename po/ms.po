@@ -1,0 +1,965 @@
+# Malay translation for menulibre
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the menulibre package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: menulibre\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-18 22:03-0400\n"
+"PO-Revision-Date: 2014-09-21 02:35+0000\n"
+"Last-Translator: abuyop <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-05-20 05:33+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
+"Language: ms\n"
+
+#: ../menulibre.desktop.in.h:1
+msgid "Menu Editor"
+msgstr "Penyunting Menu"
+
+#: ../menulibre.desktop.in.h:2
+msgid "Add or remove applications from the menu"
+msgstr "Tambah atau buang aplikasi dari menu"
+
+#: ../data/ui/MenulibreWindow.ui.h:1
+msgid "Add _Launcher"
+msgstr "Tambah _Pelancar"
+
+#: ../data/ui/MenulibreWindow.ui.h:2
+msgid "Add _Directory"
+msgstr "Tambah _Direktori"
+
+#: ../data/ui/MenulibreWindow.ui.h:3
+msgid "Add _Separator"
+msgstr "Tambah P_emisah"
+
+#: ../data/ui/MenulibreWindow.ui.h:4
+msgid "Generic name of the application, for example \"Web Browser\"."
+msgstr "Nama generik aplikasi, contohnya \"Pelayar Sesawang\"."
+
+#: ../data/ui/MenulibreWindow.ui.h:5
+msgid "Generic Name"
+msgstr "Nama Generik"
+
+#: ../data/ui/MenulibreWindow.ui.h:6
+msgid ""
+"A list of environments that should not display this entry. You can only use "
+"this key if \"OnlyShowIn\" is not set.\n"
+"Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+"XFCE, Old"
+msgstr ""
+"Senarai persekitaran yang tidak seharusnya papar masukan ini. Anda hanya "
+"boleh guna kunci ini jika \"OnlyShowIn\" tidak ditetapkan.\n"
+"Nilai yang mungkin termasuklah: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, "
+"Unity, XFCE, Old"
+
+#: ../data/ui/MenulibreWindow.ui.h:8
+msgid "Not Shown In"
+msgstr "Tidak Ditunjukkan Didalam"
+
+#: ../data/ui/MenulibreWindow.ui.h:9
+msgid ""
+"A list of environments that should display this entry. Other environments "
+"will not display this entry. You can only use this key if \"NotShowIn\" is "
+"not set.\n"
+"Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+"XFCE, Old"
+msgstr ""
+"Satu senarai persekitaran yang patutu paparkan masukan ini. Lain-lain "
+"persekitaran tidak akan paparkan masukan ini. Anda hanya boleh guna kunci "
+"ini jika \"NotShowIn\" tidak ditetapkan.\n"
+"Nilai yang mungkin termasuklah: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, "
+"Unity, XFCE, Old"
+
+#: ../data/ui/MenulibreWindow.ui.h:11
+msgid "Only Shown In"
+msgstr "Hanya Ditunjukkan Didalam"
+
+#: ../data/ui/MenulibreWindow.ui.h:12
+msgid ""
+"Path to an executable file to determine if the program is installed. If the "
+"file is not present or is not executable, this entry may not be shown in a "
+"menu."
+msgstr ""
+"Laluan ke fail bolehlaku untuk tentukan jika program telah dipasang. Jika "
+"fail tidak hadir atau tidak bolehlaku, masukan ini tidak ditunjukkan dalam "
+"menu."
+
+#: ../data/ui/MenulibreWindow.ui.h:13
+msgid "Try Exec"
+msgstr "Cuba Exec"
+
+#: ../data/ui/MenulibreWindow.ui.h:14
+msgid "The MIME type(s) supported by this application."
+msgstr "Jenis MIME disokong oleh aplikasi ini."
+
+#: ../data/ui/MenulibreWindow.ui.h:15
+msgid "Mimetypes"
+msgstr "Jenis Mime"
+
+#: ../data/ui/MenulibreWindow.ui.h:16
+msgid ""
+"A list of keywords to describe this entry. You can use these to help "
+"searching entries. These are not meant for display, and should not be "
+"redundant with the values of Name or GenericName."
+msgstr ""
+"Senarai kata  kunci untuk jelaskan masukan ini. Anda boleh guna ini untuk "
+"bantu menggelintar masukan. Ia tidak bermaksud untuk paparan, dan tidak "
+"seharusnya digandakan dengan nilai Name atau GenericName."
+
+#: ../data/ui/MenulibreWindow.ui.h:17
+msgid "Keywords"
+msgstr "Kata Kunci"
+
+#: ../data/ui/MenulibreWindow.ui.h:18
+msgid ""
+"If specified, the application will be requested to use the string as a WM "
+"class or a WM name hint at least in one window."
+msgstr ""
+"Jika dinyatakan, aplikasi akan dipinta gunakan rentetan sebagai kelas WM "
+"atau pembayang nama WM sekurang-kurangnya dalam satu tetingkap."
+
+#: ../data/ui/MenulibreWindow.ui.h:19
+msgid "Startup WM Class"
+msgstr "Kelas WM Permulaan"
+
+#: ../data/ui/MenulibreWindow.ui.h:20
+msgid ""
+"If set to \"True\", the result for the user is equivalent to the .desktop "
+"file not existing at all."
+msgstr ""
+"Jika ditetapkan pada \"Benar\", keputusan untuk pengguna adalah sama dengan "
+"fail .desktop tidak wujud langsung."
+
+#: ../data/ui/MenulibreWindow.ui.h:21
+msgid "Hidden"
+msgstr "Tersembunyi"
+
+#: ../data/ui/MenulibreWindow.ui.h:22
+msgid ""
+"Set this key to \"True\" if D-Bus activation is supported for this "
+"application and you want to use it.\n"
+"See http://standards.freedesktop.org/desktop-entry-spec/latest/ar01s07.html "
+"for more information."
+msgstr ""
+"Tetapkan kunci ini kepada \"Benar\" jika pengaktifan D-Bus disokong untuk "
+"aplikasi ini dan anda mahu gunakannya.\n"
+"Sila rujuk http://standards.freedesktop.org/desktop-entry-"
+"spec/latest/ar01s07.html untuk maklumat lanjut."
+
+#: ../data/ui/MenulibreWindow.ui.h:24
+msgid "DBUS Activatable"
+msgstr "DBUS Boleh Aktif"
+
+#: ../data/ui/MenulibreWindow.ui.h:25
+msgid "Browse Icons…"
+msgstr ""
+
+#: ../data/ui/MenulibreWindow.ui.h:26
+msgid "Browse Files..."
+msgstr ""
+
+#: ../data/ui/MenulibreWindow.ui.h:27 ../menulibre/Dialogs.py:38
+#: ../menulibre/MenulibreApplication.py:237
+#: ../menulibre/MenulibreApplication.py:276
+msgid "MenuLibre"
+msgstr "MenuLibre"
+
+#: ../data/ui/MenulibreWindow.ui.h:28
+msgid "Save Launcher"
+msgstr "Simpan Pelancar"
+
+#: ../data/ui/MenulibreWindow.ui.h:29 ../menulibre/MenulibreApplication.py:342
+msgid "Undo"
+msgstr "Buat Asal"
+
+#: ../data/ui/MenulibreWindow.ui.h:30 ../menulibre/MenulibreApplication.py:349
+msgid "Redo"
+msgstr "Buat Semula"
+
+#: ../data/ui/MenulibreWindow.ui.h:31 ../menulibre/MenulibreApplication.py:356
+msgid "Revert"
+msgstr "Kembali"
+
+#: ../data/ui/MenulibreWindow.ui.h:32 ../menulibre/MenulibreApplication.py:363
+msgid "Delete"
+msgstr "Padam"
+
+#: ../data/ui/MenulibreWindow.ui.h:33
+msgid "Move Up"
+msgstr "Alih ke Atas"
+
+#: ../data/ui/MenulibreWindow.ui.h:34
+msgid "Move Down"
+msgstr "Alih ke Bawah"
+
+#: ../data/ui/MenulibreWindow.ui.h:35
+msgid "<small><i>Filename</i></small>"
+msgstr "<small><i>Nama Fail</i></small>"
+
+#: ../data/ui/MenulibreWindow.ui.h:36
+msgid "<big><b>Application Name</b></big>"
+msgstr "<big><b>Nama Aplikasi</b></big>"
+
+#: ../data/ui/MenulibreWindow.ui.h:37
+msgid "Application Name"
+msgstr "Nama Aplikasi"
+
+#: ../data/ui/MenulibreWindow.ui.h:38
+msgid "Application Comment"
+msgstr "Ulasan Aplikasi"
+
+#: ../data/ui/MenulibreWindow.ui.h:39 ../menulibre/MenulibreApplication.py:683
+msgid "Description"
+msgstr "Keterangan"
+
+#: ../data/ui/MenulibreWindow.ui.h:40
+msgid ""
+"Program to execute with arguments. This key is required if DBusActivatable "
+"is not set to \"True\" or if you need compatibility with implementations "
+"that do not understand D-Bus activation.\n"
+"See http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+"latest.html#exec-variables for a list of supported arguments."
+msgstr ""
+"Program untuk dilakukan dengan argumen. Kunci ini diperlukan jika "
+"DBusActivatable tidak ditetapkan menjadi \"Benar\" atau jika anda perlukan "
+"keserasian dengan perlaksanaan yang tidak memahami pengaktifan D-Bus.\n"
+"Sila rujuk http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-"
+"spec-latest.html#exec-variables untuk senarai argumen yang disokong."
+
+#: ../data/ui/MenulibreWindow.ui.h:42
+msgid "Command"
+msgstr "Perintah"
+
+#: ../data/ui/MenulibreWindow.ui.h:43
+msgid "The working directory."
+msgstr "Direktori kerja."
+
+#: ../data/ui/MenulibreWindow.ui.h:44
+msgid "Working Directory"
+msgstr "Direktori Kerja"
+
+#: ../data/ui/MenulibreWindow.ui.h:45
+msgid "<b>Application Details</b>"
+msgstr "<b>Perincian Aplikasi</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:46
+msgid "If set to \"True\", the program will be ran in a terminal window."
+msgstr ""
+"Jika ditetapkan pada \"Benar\", program akan dijalankan dalam tetingkap "
+"terminal."
+
+#: ../data/ui/MenulibreWindow.ui.h:47
+msgid "Run in terminal"
+msgstr "Jalan dalam terminal"
+
+#: ../data/ui/MenulibreWindow.ui.h:48
+msgid ""
+"If set to \"True\", a startup notification is sent. Usually means that a "
+"busy cursor is shown while the application launches."
+msgstr ""
+"Jika ditetapkan pada \"Benar\", pemberitahuan permulaan dihantar. Biasanya "
+"kursor sibuk ditunjukkan ketika aplikasi dilancarkan."
+
+#: ../data/ui/MenulibreWindow.ui.h:49
+msgid "Use startup notification"
+msgstr "Guna aplikasi permulaan"
+
+#: ../data/ui/MenulibreWindow.ui.h:50
+msgid ""
+"If set to \"True\", this entry will not be shown in menus, but will be "
+"available for MIME type associations etc."
+msgstr ""
+"Jika ditetapkan pada \"Benar\", masukan ini tidak akan ditunjukkan dalam "
+"menu, tetapi tersedia untuk perkaitan jenis MIME dll."
+
+#: ../data/ui/MenulibreWindow.ui.h:51
+msgid "Hide from menus"
+msgstr "Sembunyi dari menu"
+
+#: ../data/ui/MenulibreWindow.ui.h:52
+msgid "<b>Options</b>"
+msgstr "<b>Pilihan</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:53
+msgid "Add"
+msgstr "Tambah"
+
+#: ../data/ui/MenulibreWindow.ui.h:54
+msgid "Remove"
+msgstr "Buang"
+
+#: ../data/ui/MenulibreWindow.ui.h:55
+msgid "Clear"
+msgstr "Kosongkan"
+
+#: ../data/ui/MenulibreWindow.ui.h:56
+msgid "Show"
+msgstr "Tunjuk"
+
+#: ../data/ui/MenulibreWindow.ui.h:57
+msgid "Name"
+msgstr "Nama"
+
+#: ../data/ui/MenulibreWindow.ui.h:58
+msgid "Select an icon…"
+msgstr "Pilih satu ikon..."
+
+#: ../data/ui/MenulibreWindow.ui.h:59 ../menulibre/Dialogs.py:62
+#: ../menulibre/Dialogs.py:85 ../menulibre/Dialogs.py:101
+#: ../menulibre/Dialogs.py:124 ../menulibre/Dialogs.py:132
+#: ../menulibre/MenulibreIconSelection.py:79
+msgid "Cancel"
+msgstr "Batal"
+
+#: ../data/ui/MenulibreWindow.ui.h:60
+msgid "Apply"
+msgstr "Laksana"
+
+#: ../data/ui/MenulibreWindow.ui.h:61
+msgid "<b>Select an icon</b>"
+msgstr "<b>Pilih satu ikon</b>"
+
+#: ../data/ui/MenulibreWindow.ui.h:62
+msgid "Search"
+msgstr "Gelintar"
+
+#: ../data/ui/MenulibreWindow.ui.h:63
+msgid "column"
+msgstr "lajur"
+
+#: ../data/ui/MenulibreWindow.ui.h:64
+msgid "Search terms…"
+msgstr "Gelintar terma..."
+
+#: ../menulibre/__init__.py:33
+msgid "Show debug messages"
+msgstr "Tunjuk mesej nyahpepijat"
+
+#. Populate the AboutDialog with all the relevant details.
+#: ../menulibre/Dialogs.py:37
+msgid "About MenuLibre"
+msgstr "Perihal MenuLibre"
+
+#: ../menulibre/Dialogs.py:40
+msgid "Copyright © 2012-2015 Sean Davis"
+msgstr ""
+
+#: ../menulibre/Dialogs.py:55
+msgid "Do you want to read the MenuLibre manual online?"
+msgstr "Anda mahu baca panduan atas-talian MenuLibre?"
+
+#: ../menulibre/Dialogs.py:56
+msgid ""
+"You will be redirected to the documentation website where the help pages are "
+"maintained."
+msgstr ""
+"Anda akan diarah-semula ke laman sesawang dokumentasi dimana laman bantuan "
+"diselenggara."
+
+#: ../menulibre/Dialogs.py:63
+msgid "Read Online"
+msgstr "Baca Atas Talian"
+
+#: ../menulibre/Dialogs.py:64
+msgid "Online Documentation"
+msgstr "Dokumentasi Talian"
+
+#: ../menulibre/Dialogs.py:75
+msgid "Do you want to save the changes before closing?"
+msgstr "Anda mahu simpan perubahan yang dibuat sebelum menutup?"
+
+#: ../menulibre/Dialogs.py:76
+msgid "If you don't save the launcher, all the changes will be lost.'"
+msgstr ""
+"Jika anda tidak simpan pelancar, semua perubahan yang dibuat akan hilang."
+
+#: ../menulibre/Dialogs.py:83 ../menulibre/Dialogs.py:99
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: ../menulibre/Dialogs.py:84 ../menulibre/Dialogs.py:100
+msgid "Don't Save"
+msgstr "Jangan Simpan"
+
+#: ../menulibre/Dialogs.py:86 ../menulibre/Dialogs.py:102
+#: ../menulibre/MenulibreApplication.py:335
+msgid "Save"
+msgstr "Simpan"
+
+#: ../menulibre/Dialogs.py:90
+msgid "Do you want to save the changes before leaving this launcher?"
+msgstr ""
+"Anda mahu simpan perubahan yang dibuat sebelum meninggalkan pelancar ini?"
+
+#: ../menulibre/Dialogs.py:92
+msgid "If you don't save the launcher, all the changes will be lost."
+msgstr ""
+"Jika anda tidak simpan pelancar, semua perubahan yang dibuat akan hilang."
+
+#: ../menulibre/Dialogs.py:106
+msgid "This cannot be undone."
+msgstr "Ini tidak boleh dikembalikan seperti sebelum."
+
+#: ../menulibre/Dialogs.py:115
+msgid "Are you sure you want to restore this launcher?"
+msgstr "Anda pasti mahu pulihkan pelancar ini?"
+
+#: ../menulibre/Dialogs.py:116
+msgid ""
+"All changes since the last saved state will be lost and cannot be restored "
+"automatically."
+msgstr ""
+"Semua perubahan semenjak keadaan tersimpan terakhir akan hilang dan tidak "
+"dapat dipulihkan secara automatik."
+
+#: ../menulibre/Dialogs.py:125 ../menulibre/Dialogs.py:126
+msgid "Restore Launcher"
+msgstr "Pulih Pelancar"
+
+#: ../menulibre/Dialogs.py:133 ../menulibre/MenulibreIconSelection.py:80
+msgid "OK"
+msgstr "OK"
+
+#: ../menulibre/MenuEditor.py:87 ../menulibre/MenulibreApplication.py:1029
+#: ../menulibre/MenulibreApplication.py:1463
+msgid "Separator"
+msgstr "Pemisah"
+
+#. Standard Items
+#: ../menulibre/MenulibreApplication.py:40
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../menulibre/MenulibreApplication.py:41
+msgid "Development"
+msgstr "Pembangunan"
+
+#: ../menulibre/MenulibreApplication.py:42
+msgid "Education"
+msgstr "Pendidikan"
+
+#: ../menulibre/MenulibreApplication.py:43
+msgid "Games"
+msgstr "Permainan"
+
+#: ../menulibre/MenulibreApplication.py:44
+msgid "Graphics"
+msgstr "Grafik"
+
+#: ../menulibre/MenulibreApplication.py:45
+msgid "Internet"
+msgstr "Internet"
+
+#: ../menulibre/MenulibreApplication.py:46
+msgid "Office"
+msgstr "Pejabat"
+
+#: ../menulibre/MenulibreApplication.py:47
+msgid "Settings"
+msgstr "Tetapan"
+
+#: ../menulibre/MenulibreApplication.py:48
+msgid "System"
+msgstr "Sistem"
+
+#: ../menulibre/MenulibreApplication.py:49
+msgid "Accessories"
+msgstr "Aksesori"
+
+#: ../menulibre/MenulibreApplication.py:50
+msgid "WINE"
+msgstr "WINE"
+
+#. Desktop Environment
+#: ../menulibre/MenulibreApplication.py:52
+msgid "Desktop configuration"
+msgstr "Konfigurasi desktop"
+
+#: ../menulibre/MenulibreApplication.py:53
+msgid "User configuration"
+msgstr "Konfigurasi pengguna"
+
+#: ../menulibre/MenulibreApplication.py:54
+msgid "Hardware configuration"
+msgstr "Konfigurasi perkakasan"
+
+#. GNOME Specific
+#: ../menulibre/MenulibreApplication.py:56
+msgid "GNOME application"
+msgstr "Aplikasi GNOME"
+
+#: ../menulibre/MenulibreApplication.py:57
+msgid "GTK+ application"
+msgstr "Aplikasi GTK+"
+
+#: ../menulibre/MenulibreApplication.py:58
+msgid "GNOME user configuration"
+msgstr "Konfigurasi pengguna GNOME"
+
+#: ../menulibre/MenulibreApplication.py:59
+msgid "GNOME hardware configuration"
+msgstr "Konfigurasi perkakasan GNOME"
+
+#: ../menulibre/MenulibreApplication.py:60
+#: ../menulibre/MenulibreApplication.py:61
+msgid "GNOME system configuration"
+msgstr "Konfigurasi sistem GNOME"
+
+#. Xfce Specific
+#: ../menulibre/MenulibreApplication.py:63
+#: ../menulibre/MenulibreApplication.py:64
+msgid "Xfce menu item"
+msgstr "Item menu Xfce"
+
+#: ../menulibre/MenulibreApplication.py:65
+msgid "Xfce toplevel menu item"
+msgstr "Item menu aras tertinggi Xfce"
+
+#: ../menulibre/MenulibreApplication.py:66
+msgid "Xfce user configuration"
+msgstr "Konfigurasi pengguna Xfce"
+
+#: ../menulibre/MenulibreApplication.py:67
+msgid "Xfce hardware configuration"
+msgstr "Konfigurasi perkakasan Xfce"
+
+#: ../menulibre/MenulibreApplication.py:68
+#: ../menulibre/MenulibreApplication.py:69
+msgid "Xfce system configuration"
+msgstr "Konfigurasi sistem Xfce"
+
+#: ../menulibre/MenulibreApplication.py:117
+#: ../menulibre/MenulibreApplication.py:162
+msgid "Other"
+msgstr "Lain-lain"
+
+#: ../menulibre/MenulibreApplication.py:214
+msgid "MenuLibre cannot be run as root."
+msgstr ""
+
+#: ../menulibre/MenulibreApplication.py:215
+msgid ""
+"Please see the <a "
+"href='https://wiki.smdavis.us/doku.php?id=menulibre_faq'>online "
+"documentation</a> for more information."
+msgstr ""
+
+#: ../menulibre/MenulibreApplication.py:313
+msgid "Add _Launcher..."
+msgstr "Tambah Pe_lancar..."
+
+#: ../menulibre/MenulibreApplication.py:314
+msgid "Add Launcher..."
+msgstr "Tambah Pelancar..."
+
+#: ../menulibre/MenulibreApplication.py:320
+msgid "Add _Directory..."
+msgstr "Tambah _Direktori..."
+
+#: ../menulibre/MenulibreApplication.py:321
+msgid "Add Directory..."
+msgstr "Tambah Direktori..."
+
+#: ../menulibre/MenulibreApplication.py:327
+msgid "_Add Separator..."
+msgstr "T_ambah Pemisah..."
+
+#: ../menulibre/MenulibreApplication.py:328
+msgid "Add Separator..."
+msgstr "Tambah Pemisah..."
+
+#: ../menulibre/MenulibreApplication.py:334
+msgid "_Save"
+msgstr "_Simpan"
+
+#: ../menulibre/MenulibreApplication.py:341
+msgid "_Undo"
+msgstr "Buat _Asal"
+
+#: ../menulibre/MenulibreApplication.py:348
+msgid "_Redo"
+msgstr "Buat _Semula"
+
+#: ../menulibre/MenulibreApplication.py:355
+msgid "_Revert"
+msgstr "_Kembali Semula"
+
+#: ../menulibre/MenulibreApplication.py:362
+msgid "_Delete"
+msgstr "Pa_dam"
+
+#: ../menulibre/MenulibreApplication.py:369
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: ../menulibre/MenulibreApplication.py:370
+#: ../menulibre/MenulibreApplication.py:1736
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../menulibre/MenulibreApplication.py:376
+msgid "_Contents"
+msgstr "_Kandungan"
+
+#: ../menulibre/MenulibreApplication.py:377
+#: ../menulibre/MenulibreApplication.py:1734
+msgid "Help"
+msgstr "Bantuan"
+
+#: ../menulibre/MenulibreApplication.py:383
+msgid "_About"
+msgstr "_Perihal"
+
+#: ../menulibre/MenulibreApplication.py:384
+#: ../menulibre/MenulibreApplication.py:1735
+msgid "About"
+msgstr "Perihal"
+
+#: ../menulibre/MenulibreApplication.py:506
+msgid "Categories"
+msgstr "Kategori"
+
+#: ../menulibre/MenulibreApplication.py:508
+msgid "Actions"
+msgstr "Tindakan"
+
+#: ../menulibre/MenulibreApplication.py:510
+msgid "Advanced"
+msgstr "Lanjutan"
+
+#: ../menulibre/MenulibreApplication.py:657
+msgid "ThisEntry"
+msgstr "MasukanIni"
+
+#: ../menulibre/MenulibreApplication.py:675
+msgid "Select a category"
+msgstr "Pilih satu kategori"
+
+#: ../menulibre/MenulibreApplication.py:678
+msgid "Category Name"
+msgstr "Nama Kategori"
+
+#: ../menulibre/MenulibreApplication.py:762
+msgid "This Entry"
+msgstr "Masukan Ini"
+
+#: ../menulibre/MenulibreApplication.py:817
+msgid "New Shortcut"
+msgstr "Pintasan Baharu"
+
+#: ../menulibre/MenulibreApplication.py:963
+msgid "Select a working directory..."
+msgstr "Pilih satu direktori kerja..."
+
+#: ../menulibre/MenulibreApplication.py:966
+msgid "Select an executable..."
+msgstr "Pilih satu bolehlaku..."
+
+#: ../menulibre/MenulibreApplication.py:988
+msgid "Cannot add subdirectories to preinstalled system paths."
+msgstr "Tidak dapat tambah sub-direktori ke laluan sistem pra-pasang."
+
+#. Display a dialog saying this item is missing
+#: ../menulibre/MenulibreApplication.py:1078
+msgid "No Longer Installed"
+msgstr "Tiada Lagi Dipasang"
+
+#: ../menulibre/MenulibreApplication.py:1079
+msgid ""
+"This launcher has been removed from the system.\n"
+"Selecting the next available item."
+msgstr ""
+"Pelancar ini telah dibuang dari sistem.\n"
+"Memilih item tersedia berikutnya."
+
+#: ../menulibre/MenulibreApplication.py:1179
+msgid "You do not have permission to delete this file."
+msgstr "Anda tidak mempunyai keizinan memadam fail ini."
+
+#: ../menulibre/MenulibreApplication.py:1411
+msgid "New Launcher"
+msgstr "Pelancar Baharu"
+
+#: ../menulibre/MenulibreApplication.py:1446
+msgid "New Directory"
+msgstr "Direktori Baharu"
+
+#: ../menulibre/MenulibreApplication.py:1683
+msgid "Are you sure you want to delete this separator?"
+msgstr "Anda pasti mahu memadam pemisah ini?"
+
+#: ../menulibre/MenulibreApplication.py:1686
+#, python-format
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Anda pasti ingin memadam \"%s\"?"
+
+#: ../menulibre/MenulibreIconSelection.py:76
+msgid "Select an image"
+msgstr "Pilih satu imej"
+
+#: ../menulibre/MenulibreIconSelection.py:84
+msgid "Images"
+msgstr "Imej"
+
+#. Create a new column.
+#: ../menulibre/MenulibreTreeview.py:60
+msgid "Search Results"
+msgstr "Hasil Gelintar"
+
+#: ../menulibre/MenulibreXdg.py:53
+msgid "New Menu Item"
+msgstr "Item Menu Baharu"
+
+#: ../menulibre/MenulibreXdg.py:55
+msgid "A small descriptive blurb about this application."
+msgstr "Merupakan blurb keterangan kecil mengenai aplikasi ini."
+
+#~ msgid "Image File"
+#~ msgstr "Fail Imej"
+
+#~ msgid "Icon Name"
+#~ msgstr "Nama Ikon"
+
+#~ msgid "_Edit"
+#~ msgstr "_Sunting"
+
+#~ msgid "_Help"
+#~ msgstr "Bant_uan"
+
+#~ msgid "_File"
+#~ msgstr "_Fail"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Pratonton</b>"
+
+#~ msgid "Icon Selection"
+#~ msgstr "Pemilihan Ikon"
+
+#~ msgid "<b>Select an image</b>"
+#~ msgstr "<b>Pilih satu imej</b>"
+
+#~ msgid "32px"
+#~ msgstr "32px"
+
+#~ msgid "16px"
+#~ msgstr "16px"
+
+#~ msgid "128px"
+#~ msgstr "128px"
+
+#~ msgid "64px"
+#~ msgstr "64px"
+
+#~ msgid "\"Terminal\": Whether the program runs in a terminal window."
+#~ msgstr "\"Terminal\": Sama ada program berjalan di dalam tetingkap terminal."
+
+#~ msgid "Copyright © 2012-2014 Sean Davis"
+#~ msgstr "Hakcipta © 2012-2014 Sean Davis"
+
+#~ msgid "Browse…"
+#~ msgstr "Layar..."
+
+#~ msgid "Action Name"
+#~ msgstr "Nama Tindakan"
+
+#~ msgid "\"MimeType\": The MIME type(s) supported by this application."
+#~ msgstr "\"MimeType\": Jenis MIME disokong oleh aplikasi ini."
+
+#~ msgid "\"Path\": The working directory to run the program in."
+#~ msgstr "\"Path\": Direktori kerja untuk jalankan program."
+
+#~ msgid ""
+#~ "\"GenericName\": Generic name of the application, for example \"Web "
+#~ "Browser\"."
+#~ msgstr "\"GenericName\": Nama generik aplikasi, contohnya \"Web Browser\"."
+
+#~ msgid ""
+#~ "\"StartupWMClass\": If specified, it is known that the application will map "
+#~ "at\n"
+#~ "least one window with the given string as its WM class or WM name hint."
+#~ msgstr ""
+#~ "\"StartupWMClass\": Jika dinyatakan, ia diketahui bahawa aplikasi akan "
+#~ "petakan\n"
+#~ "sekurang-kurangnya satu tetingkap dengan rentetan yang diberi sebagai\n"
+#~ "kelas WM atau pembayang nama WM."
+
+#~ msgid ""
+#~ "\"Hidden\": Hidden should have been called Deleted. It means the user "
+#~ "deleted\n"
+#~ "(at his level) something that was present (at an upper level, e.g. in the\n"
+#~ "system dirs). It's strictly equivalent to the .desktop file not existing at\n"
+#~ "all, as far as that user is concerned. This can also be used to "
+#~ "\"uninstall\"\n"
+#~ "existing files (e.g. due to a renaming) - by letting make install install a\n"
+#~ "file with Hidden=true in it."
+#~ msgstr ""
+#~ "\"Hidden\": Hidden sepatutnya dipanggil Deleted. Ia bermaksud pengguna\n"
+#~ "memadam (pada aras ini) sesuatu yang telah ada (pada aras lebih tinggi,\n"
+#~ "cth. di dalam dir system). Ia menyamai dengan fail .desktop tetapi tidak\n"
+#~ "wujud langsung, sehinggalah pengguna berminat mengenainya. Ia juga\n"
+#~ "boleh digunakan untuk \"uninstall\" fail sedia ada (cth. disebabkan oleh\n"
+#~ "proses penamaan semula) -dengan membiarkan make install pasang\n"
+#~ "fail dengan Hidden=true di dalamnya."
+
+#~ msgid ""
+#~ "\"OnlyShowIn\": A list of strings identifying the environments that should\n"
+#~ "display a given desktop entry. Only one of these keys, either OnlyShowIn or\n"
+#~ "NotShowIn, may appear in a group.\n"
+#~ "\n"
+#~ "Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+#~ "XFCE, Old"
+#~ msgstr ""
+#~ "\"OnlyShowIn\": Satu senarai rentetan yang mengenalpasti persekitaran yang\n"
+#~ "patut paparkan masukan desktop yang diberi. Hanya salah satu dari kunci ini\n"
+#~ "sama ada OnlyShowIn atau NotShowIn, muncul di dalam kumpulan.\n"
+#~ "\n"
+#~ "Nilai yang mungkin termasuklah: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, "
+#~ "Unity, XFCE, Old"
+
+#~ msgid ""
+#~ "\"Exec\": Program to execute, possibly with arguments. The Exec key is "
+#~ "required\n"
+#~ "if DBusActivatable is not set to true. Even if DBusActivatable is true, "
+#~ "Exec\n"
+#~ "should be specified for compatibility with implementations that do not\n"
+#~ "understand DBusActivatable. \n"
+#~ "\n"
+#~ "Please see\n"
+#~ "http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+#~ "latest.html#exec-variables\n"
+#~ "for a list of supported arguments."
+#~ msgstr ""
+#~ "\"Exec\": Program untuk dilakukan, berkemungkinan dengan argumen. Kunci Exec "
+#~ "diperlukan\n"
+#~ "jika DBusActivatable tidak ditetapkan ke benar. Walaupun jika "
+#~ "DBusActivatable adalah benar, \n"
+#~ "Exec seharunya dinyatakan unutk keserasian dengan pelaksanaan yang tidak "
+#~ "memahami\n"
+#~ "DBusActivatable. \n"
+#~ "\n"
+#~ "Sila rujuk\n"
+#~ "http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-"
+#~ "latest.html#exec-variables\n"
+#~ "untuk senarai argumen yang disokong."
+
+#~ msgid ""
+#~ "\"NotShowIn\": A list of strings identifying the environments that should "
+#~ "not\n"
+#~ "display a given desktop entry. Only one of these keys, either OnlyShowIn or\n"
+#~ "NotShowIn, may appear in a group.\n"
+#~ "\n"
+#~ "Possible values include: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, Unity, "
+#~ "XFCE, Old"
+#~ msgstr ""
+#~ "\"NotShowIn\": Satu senarai rentetan yang mengenalpasti persekitaran tidak "
+#~ "sepatutnya\n"
+#~ "paparkan masukan desktop yang diberi. Hanya salah satu dari kunci ini, sama "
+#~ "ada \n"
+#~ "OnlyShowIn atau NotShowIn, boleh muncul di dalam kumpulan.\n"
+#~ "\n"
+#~ "Nilai yang mungkin termasuklah: GNOME, KDE, LXDE, MATE, Razor, ROX, TDE, "
+#~ "Unity, XFCE, Old"
+
+#~ msgid ""
+#~ "\"Keywords\": A list of strings which may be used in addition to other "
+#~ "metadata\n"
+#~ "to describe this entry. This can be useful e.g. to facilitate searching "
+#~ "through\n"
+#~ "entries. The values are not meant for display, and should not be redundant\n"
+#~ "with the values of Name or GenericName."
+#~ msgstr ""
+#~ "\"Keywords\": Senarai rentetan yang mungkin digunakan tambahan selain dari "
+#~ "data\n"
+#~ "meta lain untuk jelaskan masukan ini. Ia berguna cth. untuk membantu "
+#~ "gelintar\n"
+#~ "menerusi masukan. Nilai tidak bermaksud untuk paparan, dan tidak seharusnya\n"
+#~ "bertindih dengan nilai Name atau GenericName."
+
+#~ msgid ""
+#~ "\"StartupNotify\": If true, it is KNOWN that the application will send a "
+#~ "\"remove\"\n"
+#~ "message when started with the DESKTOP_STARTUP_ID environment variable set. "
+#~ "If\n"
+#~ "false, it is KNOWN that the application does not work with startup "
+#~ "notification\n"
+#~ "at all (does not shown any window, breaks even when using StartupWMClass, "
+#~ "etc.).\n"
+#~ "If absent, a reasonable handling is up to implementations (assuming false,\n"
+#~ "using StartupWMClass, etc.)."
+#~ msgstr ""
+#~ "\"StartupNotify\": Jika benar, ia DIKETAHUI aplikasi akan menghantar satu "
+#~ "mesej\n"
+#~ "\"remove\" bila bermula dengan pembolehubah persekitaran DESKTOP_STARTUP_ID\n"
+#~ "yang ditetapkan. Jika palsu, ia DIKETAHUI aplikasi tidak berfungsi dengan\n"
+#~ "pemberitahuan langsung (tidak menunjukkan mana-mana tetingkap, mengalami\n"
+#~ "kerosakan bila menggunakan StartupWMClass, dll.). Jika tiada, satu "
+#~ "pengendalian\n"
+#~ "bersebab akan dilaksanakan (menganggap palsu, menggunakan StartupWMClass, "
+#~ "dll.)."
+
+#~ msgid ""
+#~ "\"NoDisplay\": NoDisplay means \"this application exists, but don't display "
+#~ "it in\n"
+#~ "the menus\". This can be useful to e.g. associate this application with "
+#~ "MIME\n"
+#~ "types, so that it gets launched from a file manager (or other apps), "
+#~ "without\n"
+#~ "having a menu entry for it (there are tons of good reasons for this,\n"
+#~ "including e.g. the netscape -remote, or kfmclient openURL kind of stuff)."
+#~ msgstr ""
+#~ "\"NoDisplay\": NoDisplay bermaksud \"aplikasi ini wujud, tetapi tidak "
+#~ "dipapar dalam\n"
+#~ "menu\". Ia berguna cth. dikaitkan aplikasi ini dengan jenis MIME, supaya ia "
+#~ "dapat\n"
+#~ "dilancarkan dari pengurus fail (atau apl lain) tanpa mempunyai masukan menu\n"
+#~ "untuknya (ada banyak sebab kenapa ia dibuat, termasuklah cth. netscape -"
+#~ "remote,\n"
+#~ "atau jenis-jenis kfmclient openURL)."
+
+#~ msgid ""
+#~ "\"TryExec\": Path to an executable file on disk used to determine if the "
+#~ "program\n"
+#~ "is actually installed. If the path is not an absolute path, the file is "
+#~ "looked\n"
+#~ "up in the $PATH environment variable. If the file is not present or if it "
+#~ "is\n"
+#~ "not executable, the entry may be ignored (not be used in menus, for "
+#~ "example). "
+#~ msgstr ""
+#~ "\"TryExec\": Laluan ka fail bolehlaku pada cakera yang digunakan untuk "
+#~ "tentukan jika\n"
+#~ "program sebenarnya dipasang. Jika laluan bukan laluan mutlak, fail dicari di "
+#~ "dalam\n"
+#~ "pembolehubah persekitaran $PATH. Jika fail tidak hadir atau ia tidak "
+#~ "bolehlaku,\n"
+#~ "maka masukan akan diabaikan (tidak diguna dalam menu, sebagai contoh). "
+
+#~ msgid ""
+#~ "\"DBusActivatable\": A boolean value specifying if D-Bus activation is "
+#~ "supported\n"
+#~ "for this application. If this key is missing, the default value is false. "
+#~ "If\n"
+#~ "the value is true then implementations should ignore the Exec key and send "
+#~ "a\n"
+#~ "D-Bus message to launch the application. See D-Bus Activation for more\n"
+#~ "information on how this works. Applications should still include Exec= "
+#~ "lines\n"
+#~ "in their desktop files for compatibility with implementations that do not\n"
+#~ "understand the DBusActivatable key."
+#~ msgstr ""
+#~ "\"DBusActivatable\": Satu nilai boolean yang menentukan jika pengaktifan D-"
+#~ "Bus\n"
+#~ "disokong untuk aplikasi ini. Jika kunci hilang, nilai lalai adalah palsu. "
+#~ "Jika nilai\n"
+#~ "adalah benar maka perlaksanaan seharusnya abaikan kunci Exec dan hantar\n"
+#~ "satu mesej D-Bus untuk lancarkan aplikasi. Sila rujuk Pengaktifan D-Bus "
+#~ "untuk\n"
+#~ "maklumat lanjut bagaimana ia berfungsi. Aplikasi seharusnya melibatkan\n"
+#~ "Exec= lines dalam fail desktop mereka untuk keserasian dengan perlaksanaan\n"
+#~ "supaya dapat memahami kunci DBusActivatable."
