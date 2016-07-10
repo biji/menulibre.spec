@@ -73,7 +73,8 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %{_mandir}/man1/menulibre.1.gz
 %{python3_sitelib}/menulibre
 %{python3_sitelib}/menulibre_lib
-%{python3_sitelib}/menulibre-%{version}-py%{python3_version}.egg-info
+#%{python3_sitelib}/menulibre-%{version}-py%{python3_version}.egg-info
+%{python3_sitelib}/menulibre-2.1.3-py%{python3_version}.egg-info
 
 %changelog
 * Sun Apr 10 2016 Marcus Karlsson <mk@acc.umu.se> - 2.1.3-1
